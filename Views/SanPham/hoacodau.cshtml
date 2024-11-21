@@ -1,0 +1,246 @@
+﻿@model IEnumerable<websitehoa.Models.SanPham>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/sale.jpg" width="97%" height="auto" style="margin-top:10px;" />
+    </center>
+</div>
+<br /> *@
+
+<!---->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb" style="background-color:#fff;margin-left:40px;">
+        <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Mẫu hoa cô dâu</li> <!---->
+    </ol>
+</nav>
+<!---->
+<div class="danhmuchoa">
+    <!---->
+    <div class="row">
+        <div class="col-md-3">
+            <!--thanh danh mục-->
+            <div class="list-mauhoa list-group" style="border-radius:0px;margin-left:20px;margin-top:7px;">
+                <a href="#" style="color:red;" class="list-group-item list-group-item-action">Danh mục sản phẩm</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau" style="color:#ff5622;">Hoa cô dâu</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+            </div>
+            <!--end-->
+            <div class="imagedoc">
+                <img src="~/Content/uploads/doc1.jpg" class="img-fluid" />
+                <p>Gọi ngay <strong style="color:red;">0123.456.789</strong> để được tư vấn chọn mẫu hoa phù hợp.</p>
+            </div>
+        </div>
+        <div class="col-md-9" style="padding:10px 30px;margin:0 auto;">
+
+
+
+            <div class="salef active">
+
+                <div class="row" style="margin-top:6px;">
+                    <!---->
+                    @foreach (var item in ViewBag.gethoacodau)
+                    {
+
+                        <div class="col-lg-2_4 col-md-3 col-6 post2">
+
+
+
+                            <!--Xây dựng hàm if với điều kiện lấy thông tin từ người dùng -->
+                            @*@if (User.Identity.IsAuthenticated)
+                        {*@
+                            <!--trong hàm if chứa mã nguồn sản phẩm -->
+                            <!--khi đăng nhập thành công so với thông tin người dùng nếu đúng sẽ hiện ra sản phẩm -->
+
+
+
+
+                            <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img src="@item.Hinh" alt="">
+                                    </div>
+                                    @if (item.Giamgia == 0 || item.Giamgia == null)
+                                    {
+                                        <div class="product__sale">
+                                            <h6 style="color:#fff;">Mới</h6>
+                                        </div>
+
+                                    }
+                                    else
+                                    {
+                                        <div class="product__sale">
+                                            <h6 style="color:#fff;">@item.Giamgia %</h6>
+                                        </div>
+                                    }
+                                    <div class="product__content">
+                                        <div class="product__title">
+                                            @item.Tensp
+                                        </div>
+
+                                        @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                                        {
+                                            <div class="product__pride-oldPride">
+                                                <span class="Price">
+                                                    <bdi>
+                                                        @string.Format("{0:N0}", item.Giaban)
+                                                        <span class="currencySymbol">₫</span>
+                                                    </bdi>
+                                                </span>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="product__pride-newPride">
+                                        <span class="Price">
+                                            <bdi>
+                                                @string.Format("{0:N0}", item.Giakhuyenmai)
+                                                <span class="currencySymbol">₫</span>
+                                            </bdi>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+
+
+
+                            <!--  } else
+                                   {
+                                       <span class="disabled"></span>
+                                   }
+                                   khi điều kiện sai sẽ trả về khoảng trống tương đương các sản phẩm sẽ ẩn-->
+
+
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .danhmuchoa a {
+        color: green;
+    }
+
+    .imagedoc img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagedoc {
+        padding: 20px 20px;
+        margin-top: 15px;
+    }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+
+    .post2 {
+        transition: transform 0.3s ease-in-out;
+        margin-bottom:20px;
+    }
+
+        .post2:hover {
+            transform: scale(1.06);
+        }
+
+    .product__sale {
+        background-color: red;
+        border-radius: 50%;
+        padding: 7px 7px;
+    }
+
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+
+        .body__mainTitle ~ p {
+            line-height: 3rem;
+            width: 80%;
+        }
+</style>
+
+

@@ -1,0 +1,137 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = qlthucung
+build_property.RootNamespace = qlthucung
+build_property.ProjectDir = C:\Users\Admin\Downloads\asp.net\websitehoa\websitehoa\qlthucung\qlthucung\qlthucung\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Downloads\asp.net\websitehoa\websitehoa\qlthucung\qlthucung\qlthucung
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/QLChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUUxDaGlUaWV0RG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Admin/QLDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUUxEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Cart/DatHangThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxEYXRIYW5nVGhhbmhDb25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/DichVu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljaFZ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/DonHangs/ChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcQ2hpVGlldERvbkhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/DonHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/khuyenmai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2h1eWVubWFpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/NotFoundProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxOb3RGb3VuZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/sale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxzYWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/salehot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxzYWxlaG90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/SanPham/TatCaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxUYXRDYVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Security/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Security/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Security/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/thongtin/thongtin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGhvbmd0aW5cdGhvbmd0aW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/Tintuc/Tintuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Yy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/asp.net/websitehoa/websitehoa/qlthucung/qlthucung/qlthucung/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

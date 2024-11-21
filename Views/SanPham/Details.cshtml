@@ -1,0 +1,442 @@
+﻿@model websitehoa.Models.SanPham
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="~/Content/scripts/zoomsl.min.js"></script>
+
+<script>
+
+    //Zoom image Details products
+    jQuery(document).ready(function ($) {
+
+        $('.small-img img').click(function () {
+            var image = $(this).attr('src');
+            $('.big-img img').attr('src', image);
+        });
+
+        $('#zoom').imagezoomsl({
+            zoomrange: [5, 3]
+        });
+
+    });
+
+</script>
+
+<!-- Hiển thị chi tiết sản phẩm -->
+<div class="alldetails" style="margin-top:10px;">
+  
+
+    @if (@TempData["slError"] != null)
+    {
+        <div class="alert alert-danger mt-3" role="alert">
+            @TempData["slError"]
+        </div>
+    }
+
+    @if (@TempData["addSuccess"] != null)
+    {
+        <div class="alert alert-success mt-3" role="alert">
+            @TempData["addSuccess"]
+        </div>
+    }
+
+    <div class="product__details row">
+       <div class="col-md-9">
+            <div class="thongtinhoa1">
+                <!--thông tin 1-->
+                <div class="row">
+                <div class="product__details-img col-lg-5 col-md-5">
+                    <div class="big-img">
+                        <img src="@Html.DisplayFor(model => model.Hinh)" alt="" id="zoom" style="visibility: visible;">
+                    </div>
+                    <div class="small-img d-flex mt-5">
+                        @foreach (var item in ViewBag.getthuvienanh)
+                        {
+                            <img src="@Model.Hinh" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
+                            <img src="@item.thuvienanh.Img1" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
+                            <img src="@item.thuvienanh.Img2" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
+                            <img src="@item.thuvienanh.Img3" onerror="this.onerror=null; this.src='https://i.pinimg.com/originals/ae/4c/9e/ae4c9ea2edf887f6ad1e4e63cfae05b0.jpg'" class="small-imgg" alt="">
+                        }
+                    </div>
+                </div>
+
+
+                   
+                <div class="product__details-info col-lg-7 col-md-7">
+                       
+                    <h5 style="margin-top: unset; line-height: unset;text-transform:uppercase;font-size:20px;font-weight:700;">@Html.DisplayFor(model => model.Tensp)</h5>
+                    <div class="dstar" style="margin-bottom:15px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                    </div>
+                    <div class="short-des">
+                        Những bông hoa hòa quyện nhau, như những nghệ sĩ tài năng tạo nên một bức tranh sống động trên bức canvas của cuộc sống. Hương thơm của hoa là một bản hòa nhạc êm dịu.
+
+                    </div><hr />
+
+                    <div class="product__pride">
+                        @if (Model.Giamgia == 0 || Model.Giamgia == null)
+                        {
+                            <div class="product__pride-newPride" style="font-size: 40px; text-align: start;">
+                                <span class="Price">
+                                    <bdi>
+                                        @string.Format("{0:N0}", Model.Giakhuyenmai)
+                                        <span class="currencySymbol">₫</span>
+                                    </bdi>
+                                </span>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="product__pride-oldPride" style="font-size: 20px; text-align: start;">
+                                <span class="Price">
+                                    <bdi>
+                                        @string.Format("{0:N0}", Model.Giaban)
+                                        <span class="currencySymbol">₫</span>
+                                    </bdi>
+                                </span>
+                            </div>
+                            <div class="product__pride-newPride" style="font-size: 35px; text-align: start;">
+                                <span class="Price">
+                                    <bdi>
+                                        @string.Format("{0:N0}", Model.Giakhuyenmai)
+                                        <span class="currencySymbol">₫</span>
+                                    </bdi>
+                                </span>
+                            </div>
+                        }
+
+                    </div>
+
+                    <form action="" method="POST">
+
+                        <div class="number">
+                            <span>
+                                <i> Số lượng còn lại :</i>
+                                <span class="number__count">
+                                    @Html.DisplayFor(model => model.Soluongton)
+                                </span>
+                            </span>
+
+                        </div>
+
+
+                        @if (Model.Soluongton == 0)
+                        {
+                            <div class="product__cart">
+                                <div class="product__cart-add" style="background: unset;">Tạm hết hàng</div>
+                            </div>
+                        }
+                        else
+                        {
+                            @*<div class="product__cart">
+                        <a asp-controller="cart" asp-action="addtocart" asp-route-id="@Model.Masp" class="product__cart-add" name="add-to-cart" onclick="alert('Thêm vào giỏ hàng thành công!')">
+                        Thêm vào giỏ hàng
+                        </a>
+                        <a asp-controller="cart" asp-action="buy" asp-route-id="@Model.Masp" class="product__cart-buy" name="buy-now">Mua ngay</a>
+                        </div>*@
+
+                            <div class="number">
+                                <span>Số lượng : </span>
+                                <div class="number__count">
+                                    <input type="number" value="1" name="soluong">
+                                </div>
+                            </div>
+
+                         
+                            <div class="addgiohang">
+                                <button type="submit"  class="btnhoa"  asp-controller="cart" asp-action="addtocart" asp-route-id="@Model.Masp">
+                                    Thêm vào giỏ hàng
+                                </button>
+                            </div>
+                        }
+
+                    </form>
+                </div>
+                <!--thong tin 1 end-->
+            </div>
+            </div>
+       </div>
+        <div class="col-md-3">
+            <div class="thongtinhoa2">
+
+               <div class="severshop">
+                   <div class="row">
+                       <div class="product-sever col-md-3">
+                            <img src="~/Content/uploads/giaohang.png" width="70%" height="auto"   class="img-fluid" />
+                       </div>
+                        <div class="product-sever col-md-9">
+                            <h6>Giao hàng nhanh chóng</h6>
+                            <p>chỉ trong vòng 24 giờ</p>
+                       </div>
+                   </div>
+               </div>
+
+                <div class="severshop">
+                   <div class="row">
+                       <div class="product-sever col-md-3">
+                            <img src="~/Content/uploads/chinhhang.png" width="70%" height="auto" class="img-fluid" />
+                       </div>
+                        <div class="product-sever col-md-9">
+                            <h6>Sản phẩm chính hãng</h6>
+                            <p>sản phẩm nhập khẩu 100%</p>
+                       </div>
+                   </div>
+               </div>
+
+                <div class="severshop">
+                    <div class="row">
+                        <div class="product-sever col-md-3">
+                            <img src="~/Content/uploads/save.png" width="70%" height="auto" class="img-fluid" />
+                        </div>
+                        <div class="product-sever col-md-9">
+                            <h6>Mua hàng tiết kiệm</h6>
+                            <p>rẻ hơn từ 10% - 30%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="severshop">
+                    <div class="row">
+                        <div class="product-sever col-md-3">
+                            <img src="~/Content/uploads/hotline.png" width="70%" height="auto" class="img-fluid" />
+                        </div>
+                        <div class="product-sever col-md-9">
+                            <h6>Hotline mua hàng</h6>
+                            <p>0123.456.789</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+       </div>
+      
+       
+    </div>
+
+
+
+
+    <!--Mô tả sản phẩm-->
+
+    <div class="body__mainTitle" style="margin-top:35px;">
+        <h5 style="font-weight:420;">MÔ TẢ SẢN PHẨM </h5>
+
+    </div>
+    <article>
+        @Html.DisplayFor(model => model.Mota)
+    </article>
+
+    <hr />
+
+    <!-- Sản phẩm ngẫu nhiên -->
+    <div class="body__mainTitle" style="margin-top:15px;">
+        <h5 style="font-weight:430;">GỢI Ý MẪU HOA</h5>
+    </div>
+    <div class="row">
+        @foreach (var item in ViewBag.getSPRanDom)
+        {
+            <div class="col-lg-2_5 col-md-4 col-6 post2">
+                <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+                    <div class="product">
+                        <div class="product__img">
+                            <img src="@item.Hinh" alt="">
+                        </div>
+                        @if (item.Giamgia == 0 || item.Giamgia == null)
+                        {
+                            <div class="product__sale">
+                                <h6 style="color:#fff;">Mới</h6>
+                            </div>
+
+                        }
+                        else
+                        {
+                            <div class="product__sale">
+                                <h6 style="color:#fff;">@item.Giamgia %</h6>
+                            </div>
+                        }
+                        <div class="product__content">
+                            <div class="product__title">
+                                @item.Tensp
+                            </div>
+
+                            @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                            {
+                                <div class="product__pride-oldPride">
+                                    <span class="Price">
+                                        <bdi>
+                                            @string.Format("{0:N0}", item.Giaban)
+                                            <span class="currencySymbol">₫</span>
+                                        </bdi>
+                                    </span>
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="product__pride-newPride">
+                            <span class="Price">
+                                <bdi>
+                                    @string.Format("{0:N0}", item.Giakhuyenmai)
+                                    <span class="currencySymbol">₫</span>
+                                </bdi>
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+
+    </div>
+
+
+</div>
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Hiển thị chi tiết sản phẩm -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .post2 {
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .post2:hover {
+            transform: scale(1.06);
+        }
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+    .btnhoa {
+        background-color: #539414;
+        padding: 14px 40px;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px dashed #539414;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        transition: .4s;
+    }
+
+        .btnhoa span:last-child {
+            display: none;
+        }
+
+        .btnhoa:hover {
+            transition: .4s;
+            border: 2px dashed #539414;
+            background-color: #fff;
+            color: #539414;
+        }
+
+        .btnhoa:active {
+            background-color: #87dbd0;
+        }
+
+
+    .severshop {
+        margin-top:10px;
+    }
+   
+    .alldetails {
+      
+        padding: 10px 30px;
+        margin: 0 auto;
+        
+      
+    }
+
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .product__details img {
+        width:100%;
+        height:auto;
+    }
+
+    .product__sale {
+        background-color: red;
+        border-radius: 50%;
+        padding: 7px 7px;
+    }
+</style>

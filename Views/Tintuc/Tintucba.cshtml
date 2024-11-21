@@ -1,0 +1,257 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="~/Content/scripts/zoomsl.min.js"></script>
+
+<div class="ship-header">
+    <strong>Giao hoa tận nơi các Quận, Huyện tại Cần Thơ</strong>
+    <p><strong>Chuyên viên tư vấn :</strong><span>0123 456 789</span> - <span>0123 456 789</span><strong>(Tư vấn qua Zalo, FaceBook)</strong></p>
+</div>
+<div class="all-infoshop">
+    <div class="row">
+        <!---->
+
+        <div class="col-md-9">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background-color:#fff;margin-left:12px;">
+                    <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Thông tin</li> <!---->
+                </ol>
+            </nav>
+
+            <main aria-labelledby="title">
+               
+                <!--<h2 id="title">@ViewBag.Title.</h2> --> 
+
+                <div class="aboutshop">
+                    <h4 style="margin-top:5px;">Chính Sách Quyền Riêng Tư</h4>
+                    <div class="alltintuc">
+                        <p>Chính Sách Quyền Riêng Tư. Để truy cập và sử dụng một số dịch vụ tại PeTose, khách hàng có thể sẽ được yêu cầu đăng ký với chúng tôi thông tin cá nhân (Email, Họ tên, Số ĐT liên lạc…). Mọi thông tin khai báo phải đảm bảo tính chính xác và hợp pháp. Chúng tôi không chịu mọi trách nhiệm liên quan đến pháp luật của thông tin khai báo.</p>
+                        <div>
+                            <center>
+                                <img class="img-responsive" src="~/Content/images/anhtintuc3.jpg" width="85%" />
+                            </center>
+                        </div>
+                        <br />
+                        <p>Dữ liệu cá nhân của khách hàng sẽ được lưu trữ cho đến khi có yêu cầu hủy bỏ hoặc khách hàng đăng nhập và thực hiện hủy bỏ.</p>
+                        <h5>Cam kết bảo mật thông tin cá nhân khách hàng – Chính Sách Quyền Riêng Tư</h5>
+                        <p>Chúng tôi cam kết không sử dụng, không chuyển giao, cung cấp hay tiết lộ cho bên thứ 3 nào về thông tin cá nhân của khách hàng khi không có sự cho phép đồng ý từ khách hàng đó.</p>
+                        <p>Trong trường hợp máy chủ lưu trữ thông tin bị hacker tấn công dẫn đến mất mát dữ liệu cá nhân khách hàng, chúng tôi sẽ có trách nhiệm thông báo vụ việc cho cơ quan chức năng điều tra xử lý kịp thời và thông báo cho cá nhân được biết qua email hoặc số điện thoại.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!---->
+        <div class="col-md-3">
+            <!--tin tức nổi bật-->
+            <div class="standout-block">
+                <center>
+                    <h4 style="margin-top:4px;">BÀI VIẾT NỔI BẬT</h4>
+                    <hr />
+                </center>
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <!--end-->
+            <div class="danhmuc">
+                <div class="list-group" style="border-radius:0px;margin-top:7px;">
+                    <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm </a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+                </div>
+            </div>
+        </div>
+        <!---->
+    </div>
+</div>
+
+
+
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+    .list-group-item {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .list-group-item:hover {
+            background-color: green;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .danhmuc {
+        margin-top: 10px;
+        padding: 12px 12px;
+    }
+
+        .danhmuc a {
+            color: green;
+        }
+
+    .standout-block {
+        padding: 0 17px;
+    }
+
+    .all-noibat {
+        margin-top: 15px;
+    }
+
+        .all-noibat h6 {
+            font-weight: 400;
+        }
+
+        .all-noibat img {
+            width: 100%;
+            height: auto;
+            margin-top: 11px;
+        }
+
+    .ship-header {
+        padding: 26px 0;
+        text-align: center;
+    }
+
+        .ship-header span {
+            font-weight: 700;
+            color: red;
+            margin: 0 6px;
+        }
+
+    .aboutshop {
+        padding: 12px 28px;
+    }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+
+    .bannerhoa {
+        border-radius: 5px;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bannerhoa > div {
+            font-size: 20px;
+        }
+
+</style>
+

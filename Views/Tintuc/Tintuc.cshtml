@@ -1,0 +1,549 @@
+﻿
+@{
+    ViewData["Title"] = "Tintuc";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/bghome3.jpg" width="99%" height="auto" />
+    </center>
+</div>
+<br />
+
+<div class="alltintuc" style="margin-top:10px;"> 
+    <div class="row">
+        <div class="col-md-9">
+          
+                <div class="chungtintuc">
+                    <center>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="tintuc1">
+                                    <img src="~/Content/images/anhtintuc1.jpg" class="img-responsive" alt=""/>
+                                    <h5 style="margin-top:7px;">Những câu hỏi thường gặp khi đặt hoa Online.</h5>
+                                    <p> Cách Thức Đặt Hàng Và Thanh Toán Khi bạn đặt hoa ở PeTose những chưa hiểu hết cách thức đặt hàng...</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucmot", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+
+                                   
+                                  
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="tintuc1">
+                                    <img src="~/Content/images/minhhoa2.jpeg" class="img-responsive" alt=""/>
+                                    <h5 style="margin-top:7px;">Chính sách đổi trả - hoàn trả tiền PeTose.</h5>
+                                    <p>Chính Sách Đổi trả – Hoàn trả của Dịch Vụ PeTose. Chúng tôi luôn trân trọng sự</p>
+                                <button>
+                                    <a href="@Url.Action("Tintuchai", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc3.jpg" class="img-responsive" alt="" />
+                                    <h5 style="margin-top:7px;">Chính sách bảo mật và quyền riêng tư.</h5>
+                                    <p>Chính Sách Quyền Riêng Tư. Để truy cập và sử dụng một số dịch vụ,khách hàng sẽ được...</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucba", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!--center-->
+                    </center>
+                </div>
+
+
+                <div class="chungtintuc2">
+                    <center>
+                        <div class="row">
+                            <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc4.jpg" class="img-responsive" alt="" />
+                                    <h5 style="margin-top:7px;">Hướng dẫn thanh toán.</h5>
+                                    <p> Hướng Dẫn Thanh Toán – PeTose Với hình thức thanh toán đa dạng. Quý khách có ...</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucbon", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                    <!--mỗi nội dung khác nhau ở mỗi view xemchitiettintuc và tạo ở tin tức controler-->
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc5.jpg" class="img-responsive" alt="" />
+                                    <h5 style="margin-top:7px;">Dịch vụ tặng hoa ngày 8/3 xinh đẹp.</h5>
+                                    <p>Ngày 8 tháng 3 là Ngày Quốc tế Phụ nữ, còn được gọi là Ngày 8 tháng 3,</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucnam", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc6.jpg" class="img-responsive" alt="" />
+                                    <h5 style="margin-top:7px;">Ý nghĩa các loại hoa hồng.</h5>
+                                    <p>Trong ngày lễ tình nhân hay mỗi dịp kỉ niệm tình yêu, hoa hồng là một món quà không...</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucsau", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                </div>
+                            </div>
+                        </div>
+                    </center>
+                </div>
+
+
+            <div class="chungtintuc3">
+                <center>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc7.jpg" class="img-responsive" alt="" />
+                                <h5 style="margin-top:7px;">Chọn hoa sinh nhật cho 12 tháng sinh.</h5>
+                                <p>Hoa hồng là loài hoa được lựa chọn để tặng cho sinh nhật phổ biến nhất. Hoa hồng được mệnh danh ...</p>
+                                <button>
+                                    <a href="@Url.Action("Tintucbay", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                                <!--mỗi nội dung khác nhau ở mỗi view xemchitiettintuc và tạo ở tin tức controler-->
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tintuc1">
+                                <img src="~/Content/images/anhtintuc8.jpg" class="img-responsive" alt="" />
+                                <h5 style="margin-top:7px;">Tặng hoa theo các dịp lễ trong năm.</h5>
+                                <p>Ngày 8 tháng 3 là Ngày Quốc tế Phụ nữ, còn được gọi là Ngày 8 tháng 3,</p>
+                                <button>
+                                    <a href="@Url.Action("Tintuctam", "Tintuc")" style="color:black;font-weight:430;">Xem tin tức</a>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                         class="h-6 w-6"
+                                         fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor"
+                                         stroke-width="4">
+                                        <path stroke-linecap="round"
+                                              stroke-linejoin="round"
+                                              d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </center>
+            </div>
+               
+            
+        </div>
+
+
+
+
+
+
+
+        <div class="col-md-3">
+           
+            <!--tin tức nổi bật-->
+           <div class="standout-block">
+              <center>
+                    <h4 style="margin-top:4px;">TIN TỨC NỔI BẬT</h4>
+                    <hr />
+              </center>
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6>   <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;font-weight:430;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2024?</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6>  <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;font-weight:430;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6>  <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;font-weight:430;">Điểm danh các xu hướng cắm hoa nổi bật năm 2024</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6>  <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;font-weight:430;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+           </div>
+            <!--end-->
+            <div class="danhmuc">
+                <div class="list-group" style="border-radius:0px;margin-top:7px;">
+                    <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm </a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--dịch vụ-->
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<style>
+    .alltintuc {
+        font-family: "Quicksand", sans-serif;
+    }
+    .all-noibat {
+        margin-top:15px;
+    }
+    .all-noibat h6 {
+        font-weight:400;
+    }
+    .all-noibat img {
+        width:100%;
+        height:auto;
+        margin-top:11px;
+    }
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 15px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+       
+    }
+    .danhmuc {
+        margin-top:10px;
+        padding:12px 12px;
+    }
+    .danhmuc a {
+        color:green;
+    }
+    .info1 h5 {
+        color: green;
+    }
+    .chungtintuc {
+        padding: 11px 11px;
+    }
+
+    .chungtintuc2 {
+        padding: 11px 11px;
+    }
+
+    .chungtintuc3 {
+        padding: 11px 11px;
+    }
+
+    .chungtintuc h5 {
+        text-align: left;
+    }
+
+    .chungtintuc P {
+        text-align: left;
+    }
+
+    .chungtintuc2 h5 {
+        text-align: left;
+    }
+
+    .chungtintuc3 h5 {
+        text-align: left;
+    }
+
+    .chungtintuc3 P {
+        text-align: left;
+    }
+    .chungtintuc2 P {
+        text-align: left;
+    }
+    .tintuc1 h5 {
+        font-weight:400;
+    }
+    .tintuc1 {
+        padding: 14px 14px;
+        height:380px;
+        border: 1px solid #dddddd;
+
+    }
+    .tintuc1 img {
+        width:100%;
+        height:auto;
+    }
+    .tintuc1 p {
+        font-size:14px;
+        color:grey;
+    }
+    .all p {
+        color: grey;
+    }
+
+    .all {
+        text-align: center;
+        padding: 12px 12px;
+        border: 1px solid #dddddd;
+    }
+
+    .serverhoa {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .bannerhoa {
+        border-radius: 5px;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bannerhoa > div {
+            font-size: 20px;
+        }
+
+    button {
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    button {
+        --primary-color: #111;
+        --hovered-color: #ff0c2d;
+        position: relative;
+        display: flex;
+        font-weight: 600;
+        font-size: 20px;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+        button p {
+            margin: 0;
+            position: relative;
+            font-size: 20px;
+            color: var(--primary-color);
+        }
+
+        button::after {
+            position: absolute;
+            content: "";
+            width: 0;
+            left: 0;
+            bottom: -7px;
+            background: var(--hovered-color);
+            height: 2px;
+            transition: 0.3s ease-out;
+        }
+
+        button p::before {
+            position: absolute;
+            /*   box-sizing: border-box; */
+            content: "Subscribe";
+            width: 0%;
+            inset: 0;
+            color: var(--hovered-color);
+            overflow: hidden;
+            transition: 0.3s ease-out;
+        }
+
+        button:hover::after {
+            width: 100%;
+        }
+
+        button:hover p::before {
+            width: 100%;
+        }
+
+        button:hover svg {
+            transform: translateX(4px);
+            color: var(--hovered-color);
+        }
+
+        button svg {
+            color: var(--primary-color);
+            transition: 0.2s;
+            position: relative;
+            width: 15px;
+            transition-delay: 0.2s;
+        }
+
+    .list-group-item {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .list-group-item:hover {
+            background-color: green;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+</style>
+
+
+
+
+

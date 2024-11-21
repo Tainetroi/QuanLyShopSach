@@ -1,0 +1,350 @@
+﻿@model IEnumerable<websitehoa.Models.SanPham>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/sale.jpg" width="97%" height="auto" style="margin-top:10px;" />
+    </center>
+</div>
+<br /> *@
+<div class="salesale">
+    <marquee behavior="scroll" direction="left">
+        <p style="color:#fff;font-weight:700;margin-top:11px;">CHƯƠNG TRÌNH KHUYẾN MÃI TRONG THÁNG ,CÁC MẪU HOA ĐẸP RẺ !!!</p>
+    </marquee>
+</div>
+<!---->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb" style="background-color:#fff;margin-left:30px;margin-top:20px;">
+        <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Tất cả mẫu hoa khuyến mãi </li> <!---->
+    </ol>
+</nav>
+<!---->
+<div class="allproductsale">
+    <div class="row">
+        <div class="col-md-3">
+            <!---->
+            <ul class="list-group" style="margin-left:25px;margin-top:36px;">
+                <li class="list-group-item">
+                    <p style="color:red;text-align:center;">Danh mục mẫu khuyến mãi</p>
+
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                    <span class="badge badge-danger">-10%</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                    <span class="badge badge-danger">-10%</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
+                    <span class="badge badge-danger">-11%</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                    <span class="badge badge-danger">-12%</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                    <span class="badge badge-danger">-12%</span>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <a asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+                    <span class="badge badge-danger">-15%</span>
+                </li>
+
+
+            </ul>
+            <div class="imagedoc">
+                <img src="~/Content/images/nen2.jpg" class="img-fluid" />
+                 <img src="~/Content/uploads/94322.png" class="img-fluid" />
+                <p>Gọi ngay <strong style="color:red;">0123.456.789</strong> để được tư vấn chọn mẫu hoa phù hợp.</p>
+            </div>
+
+            <!--tin tức nổi bật-->
+            <div class="standout-block">
+                <center>
+                    <h5 style="margin-top:4px;">BÀI VIẾT NỔI BẬT</h5>
+                    <hr />
+                </center>
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end-->
+            <!----> 
+        </div>
+        <div class="col-md-9" style="padding:10px 30px;margin:0 auto;">
+            <!---->
+            <div class="allmausale" style="margin-top:10px;">
+                <div class="salef active">
+
+                    <div class="row" style="margin-top:6px;">
+                        @foreach (var item in ViewBag.getSPSALE)
+                        {
+
+                            <div class="col-lg-2_4 col-md-3 col-6 post2">
+
+
+
+                                <!--Xây dựng hàm if với điều kiện lấy thông tin từ người dùng -->
+                                @*@if (User.Identity.IsAuthenticated)
+                            {*@
+                                <!--trong hàm if chứa mã nguồn sản phẩm -->
+                                <!--khi đăng nhập thành công so với thông tin người dùng nếu đúng sẽ hiện ra sản phẩm -->
+
+
+
+
+                                <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+
+                                    <div class="product">
+                                        <div class="product__img">
+                                            <img src="@item.Hinh" alt="">
+                                        </div>
+                                        @if (item.Giamgia == 0 || item.Giamgia == null)
+                                        {
+                                            <div class="product__sale">
+                                                <h6 style="color:#fff;">Mới</h6>
+                                            </div>
+
+                                        }
+                                        else
+                                        {
+                                            <div class="product__sale">
+                                                <h6 style="color:#fff;">@item.Giamgia %</h6>
+                                            </div>
+                                        }
+                                        <div class="product__content">
+                                            <div class="product__title">
+                                                @item.Tensp
+                                            </div>
+
+                                            @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                                            {
+                                                <div class="product__pride-oldPride">
+                                                    <span class="Price">
+                                                        <bdi>
+                                                            @string.Format("{0:N0}", item.Giaban)
+                                                            <span class="currencySymbol">₫</span>
+                                                        </bdi>
+                                                    </span>
+                                                </div>
+                                            }
+
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="product__pride-newPride">
+                                            <span class="Price">
+                                                <bdi>
+                                                    @string.Format("{0:N0}", item.Giakhuyenmai)
+                                                    <span class="currencySymbol">₫</span>
+                                                </bdi>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+
+                                <!--  } else
+                                       {
+                                           <span class="disabled"></span>
+                                       }
+                                       khi điều kiện sai sẽ trả về khoảng trống tương đương các sản phẩm sẽ ẩn-->
+
+
+                            </div>
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <!---->
+        </div>
+    </div>
+</div>
+
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .standout-block {
+        padding: 0 17px;
+    }
+
+    .all-noibat {
+        margin-top: 15px;
+    }
+
+        .all-noibat h6 {
+            font-weight: 400;
+        }
+
+        .all-noibat img {
+            width: 100%;
+            height: auto;
+            margin-top: 11px;
+        }
+    .imagedoc img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagedoc {
+        padding: 20px 20px;
+        margin-top: 15px;
+    }
+
+    .list-group a {
+        color:black;
+    }
+    .allmausale {
+       
+        padding: 10px 30px;
+        margin: 0 auto;    
+    }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top:20px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+    .post2 {
+        transition: transform 0.3s ease-in-out;
+        margin-bottom:20px;
+    }
+
+        .post2:hover {
+            transform: scale(1.06);
+        }
+    .product__sale {
+        background-color: red;
+        border-radius: 50%;
+        padding: 7px 7px;
+    }
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+
+        .body__mainTitle ~ p {
+            line-height: 3rem;
+            width: 80%;
+        }
+        .salesale {
+      background-color:#ff0c2d;
+        }
+</style>
+
+

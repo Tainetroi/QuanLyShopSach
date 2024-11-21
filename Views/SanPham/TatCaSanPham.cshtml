@@ -1,0 +1,375 @@
+﻿@model PaginatedList<SanPham>
+
+@{
+    ViewData["Title"] = "TatCaSanPham";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/bghome1.png" width="90%" height="auto" style="margin-top:10px;" />
+    </center> 
+</div>
+<br /> *@
+<!----> 
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb" style="background-color:#fff;margin-left:40px;">
+        <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Tất cả mẫu hoa</li> <!---->
+    </ol>
+</nav>
+<!---->
+
+   <div class="all_pageproducts">
+       <div class="row">
+           <div class="col-md-3">
+               <!--danh mục mẫu hoa-->
+            <div class="list-mauhoa list-group" style="border-radius:0px;margin-left:20px;margin-top:7px;">
+                <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Lựa chọn mẫu hoa</a>
+                    
+                        <a class="list-group-item list-group-item-action" id="mau-hoa-moi" asp-controller="SanPham" asp-action="">Mẫu hoa mới</a>                                                                           
+                <!--menu product-->
+                <div class="dropdown-content fade-in-right" id="mau-hoa-moi">
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoahongpage">Hoa Hồng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoalypage">Hoa Ly</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasenpage">Hoa Sen</a>
+                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamtupage">Hoa Cẩm Tú</a>
+                      <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="">Hoa cẩm Chướng</a>
+                </div>
+                <!--end-->
+
+                <a class="list-group-item list-group-item-action" id="mau-kieu-hoa" asp-controller="SanPham" asp-action="">Mẫu kiểu hoa</a>
+                <!--menu product-->
+                <div class="dropdown-content fade-in-right" id="mau-kieu-hoa" style="margin-top:60px;">
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoadonpage">Hoa Đơn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoabopage">Hoa Bó</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacambinhpage">Hoa Cắm Bình</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoalangpage">Hoa Lẵng</a>
+                    
+                </div>
+                <!--end-->
+                <a class="list-group-item list-group-item-action" id="mau-kieu-hoa-khac" asp-controller="SanPham" asp-action="">Mẩu các loại hoa khác</a>
+                <!--menu product-->
+                <div class="dropdown-content fade-in-right" id="mau-kieu-hoa-khac" style="margin-top:120px;">
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoabopage">Mẫu bó hoa lớn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoalangpage">Mẫu giỏ hoa</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Mẫu hoa dịp lễ lớn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Mẫu hoa cưới</a>
+                   
+                </div>
+                <!--end-->
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="salehot">Mẫu khuyến mãi</a>
+            </div>
+
+               <!--danh mục sản phẩm-->
+            <div class="list-mauhoa list-group" style="border-radius:0px;margin-left:20px;margin-top:7px;">
+                <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+            </div>
+               <!--end-->
+            <div class="imagedoc">
+                <img src="~/Content/uploads/doc2.jpg" class="img-fluid" />
+                <p>Gọi ngay <strong style="color:red;">0123.456.789</strong> để được tư vấn chọn mẫu hoa phù hợp.</p>
+            </div>
+            <!--tin tức nổi bật-->
+            <div class="standout-block">
+                <center>
+                    <h5 style="margin-top:4px;">BÀI VIẾT NỔI BẬT</h5>
+                    <hr />
+                </center>
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end-->
+           </div>
+        <div class="col-md-9">
+            <!---->
+            <div class="allproduct">
+                <div class="row">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-2_4 col-md-3 col-6 post2">
+                            <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+                                <div class="product">
+                                    <div class="product__img">
+                                        <img src="@item.Hinh" alt="">
+                                    </div>
+                                    @if (item.Giamgia == 0 || item.Giamgia == null)
+                                    {
+                                        <div class="product__sale">
+                                            <h6 style="color:#fff;">Mới</h6>
+                                        </div>
+
+                                    }
+                                    else
+                                    {
+                                        <div class="product__sale">
+                                            <h4>@item.Giamgia %</h4>
+                                        </div>
+                                    }
+                                    <div class="product__content">
+                                        <div class="product__title">
+                                            @item.Tensp
+                                        </div>
+
+                                        @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                                        {
+                                            <div class="product__pride-oldPride">
+                                                <span class="Price">
+                                                    <bdi>
+                                                        @string.Format("{0:N0}", item.Giaban)
+                                                        <span class="currencySymbol">₫</span>
+                                                    </bdi>
+                                                </span>
+                                            </div>
+                                        }
+
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="product__pride-newPride">
+                                        <span class="Price">
+                                            <bdi>
+                                                @string.Format("{0:N0}", item.Giakhuyenmai)
+                                                <span class="currencySymbol">₫</span>
+                                            </bdi>
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    }
+                </div>
+
+                <!--Pagination-->
+                <ul class="pagination justify-content-center" style="margin: 10px auto;margin-top:30px;">
+                    @if (Model.HasPreviousPage)
+                    {
+                        <li class="page-item"><a class="page-link" href="@Url.Action("TatCaSanPham", new { pageNumber = Model.PageIndex - 1 })">Previous</a></li>
+                    }
+
+                    @for (int i = 1; i <= Model.TotalPages; i++)
+                    {
+                        if (i == Model.PageIndex)
+                        {
+                            <li class="page-item active"><a href="" class="page-link"> @i</a></li>
+                        }
+                        else
+                        {
+                            <li class="page-item"><a class="page-link" href="@Url.Action("TatCaSanPham", new { pageNumber = i })">@i</a></li>
+                        }
+                    }
+
+                    @if (Model.HasNextPage)
+                    {
+                        <li class="page-item"><a class="page-link" href="@Url.Action("TatCaSanPham", new { pageNumber = Model.PageIndex + 1 })">Next</a></li>
+                    }
+                </ul>
+            </div>
+
+            <!---->
+        </div>
+       </div>
+   </div>
+
+   
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .standout-block {
+        padding: 0 17px;
+    }
+
+    .all-noibat {
+        margin-top: 15px;
+    }
+
+        .all-noibat h6 {
+            font-weight: 400;
+        }
+
+        .all-noibat img {
+            width: 100%;
+            height: auto;
+            margin-top: 11px;
+        }
+    .dropdown-content {
+
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 250px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left:260px;
+    }
+
+    .list-group-item:hover + .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content:hover {
+        display: block;
+    }
+
+
+   
+    .list-group-item {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .list-group-item:hover {
+            background-color: green;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+   
+    .imagedoc img {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagedoc {
+        padding: 20px 20px;
+        margin-top: 15px;
+    }
+    .product__sale {
+        background-color: red;
+        border-radius: 50%;
+        padding: 7px 7px;
+    }
+
+    .allproduct {       
+        padding: 10px 30px;
+        margin: 0 auto;      
+    }
+
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+     .post2 {
+        transition:transform 0.3s ease-in-out;
+        margin-bottom:20px;
+    }
+    .post2:hover {
+        transform:scale(1.07);
+    }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top:15px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+</style>
+<script>
+   
+
+
+</script>

@@ -1,0 +1,262 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="~/Content/scripts/zoomsl.min.js"></script>
+
+<div class="ship-header">
+    <strong>Giao hoa tận nơi các Quận, Huyện tại Cần Thơ</strong>
+    <p><strong>Chuyên viên tư vấn :</strong><span>0123 456 789</span> - <span>0123 456 789</span><strong>(Tư vấn qua Zalo, FaceBook)</strong></p>
+</div>
+<div class="all-infoshop">
+    <div class="row">
+        <!---->
+
+        <div class="col-md-9">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background-color:#fff;margin-left:12px;">
+                    <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Thông tin</li> <!---->
+                </ol>
+            </nav>
+
+            <main aria-labelledby="title">
+                
+                <!--<h2 id="title">@ViewBag.Title.</h2> -->
+
+                <div class="aboutshop">
+                    <h4 style="margin-top:5px;">Dịch vụ tặng hoa ngày 8/3 xinh đẹp</h4>
+                    <div class="alltintuc" style="margin-top:10px;">
+                        <p><strong>Ngày 8 tháng 3 là Ngày Quốc tế Phụ nữ, còn được gọi là Ngày 8 tháng 3, Ngày Phụ nữ và Ngày Quốc tế Phụ nữ 8 tháng 3. Đây là một lễ hội dành cho phụ nữ từ khắp nơi trên thế giới để phấn đấu vì hòa bình, bình đẳng và phát triển! Nó hơi khác so với Ngày Valentine. Hầu hết các loại hoa phổ biến vào ngày 8 tháng 3 là hoa cẩm chướng, hoa huệ và hoa hồng. Các đối tượng chủ yếu là các bà mẹ, cấp trên, người yêu và đồng nghiệp.</strong></p>
+                        <p>Những bông hoa nào được gửi vào ngày Phụ nữ 8 tháng 3? Lễ hội của lễ hội phụ nữ vào ngày 8 tháng 3, sự lựa chọn hoa trong lễ hội này, phụ thuộc vào mối quan hệ giữa người nhận hoa và người bán hoa. Tôi nên gửi loại hoa nào cho bạn gái vào ngày Phụ nữ 8 tháng 3? Ngày phụ nữ tặng hoa cho bạn gái chọn hoa tình yêu, như hoa tulip, hoa hồng, hoa huệ và các loại hoa khác tượng trưng cho tình yêu.</p>
+                        <div>
+                            <center>
+                                <img class="img-responsive" src="~/Content/images/anhtintuc5.jpg" width="85%" />
+                            </center>
+                        </div>
+                        <br />
+                        <p class="text-success">Dịch vụ ngày 8/3</p>
+                        <p>Dịch vụ tặng hoa 8/3 đẹp và rẻ với nhiều mẫu khác nhau, đa dạng về mẫu mã và ưu điểm là giá rẻ</p>
+                        <p>Tại <strong>PeTose</strong> quý khách có thể đặt hoa theo nhiều cách.</p>
+                        <p> Đặt online trên web <strong>PeTose</strong> quý khách đặt trực tiếp vào phần mua hàng (không cần đăng nhập)</p>
+                        <p>Đặt hàng cung cấp thông tin qua điện thoại, với sự hỗ trợ nhiệt tình, chúng tôi có đội ngũ tiếp nhận thôn tin đơn hàng chuyên nghiệp và tận tình. Quý khách có thể liên hệ:0123-456-789</p>
+                        <p><strong>Dịch vụ tặng hoa 8/3 là dịch vụ như thế nào?</strong></p>
+                        <p>Là dịch vụ điện hoa, bạn có thể ngồi nhà hoặc nơi làm việc để đặt điện hoa một cách đơn giản và dễ dàng, và hoa sẽ được giao tới địa chỉ bạn cần giao, chúng tôi sẽ giao hoa tận nơi theo yêu cầu, và miễn phí vận chuyển nội thành, luôn cam kết chất lượng.</p>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!---->
+        <div class="col-md-3">
+            <!--tin tức nổi bật-->
+            <div class="standout-block">
+                <center>
+                    <h4 style="margin-top:4px;">BÀI VIẾT NỔI BẬT</h4>
+                    <hr />
+                </center>
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="all-noibat">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-sm-9">
+                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <!--end-->
+            <div class="danhmuc">
+                <div class="list-group" style="border-radius:0px;margin-top:7px;">
+                    <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm </a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+                </div>
+            </div>
+        </div>
+        <!---->
+    </div>
+</div>
+
+
+
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sever-shop col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="imgsever col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+    .list-group-item {
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .list-group-item:hover {
+            background-color: green;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+    .danhmuc {
+        margin-top: 10px;
+        padding: 12px 12px;
+    }
+
+        .danhmuc a {
+            color: green;
+        }
+
+    .standout-block {
+        padding: 0 17px;
+    }
+
+    .all-noibat {
+        margin-top: 15px;
+    }
+
+        .all-noibat h6 {
+            font-weight: 400;
+        }
+
+        .all-noibat img {
+            width: 100%;
+            height: auto;
+            margin-top: 11px;
+        }
+
+    .ship-header {
+        padding: 26px 0;
+        text-align: center;
+    }
+
+        .ship-header span {
+            font-weight: 700;
+            color: red;
+            margin: 0 6px;
+        }
+
+    .aboutshop {
+        padding: 12px 28px;
+    }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+
+    .bannerhoa {
+        border-radius: 5px;
+        height: 100px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .bannerhoa > div {
+            font-size: 20px;
+        }
+
+</style>
+

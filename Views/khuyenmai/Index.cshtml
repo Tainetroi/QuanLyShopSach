@@ -1,0 +1,114 @@
+﻿@model PaginatedList<SanPham>
+@{
+    ViewData["Title"] = "mẫu khuyến mãi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/sale.jpg" width="97%" height="auto" />
+    </center>
+</div>
+<br />
+
+<div class="body__mainTitle" style="margin-top:20px;">
+    <h4 style="text-align:center;color:black;font-weight:700;"> NHỮNG MẪU BÓ HOA KHUYẾN MÃI</h4>
+</div>
+<div class="body" style="margin-top:20px;">
+
+    <div class="body__mainTitle">
+
+
+        <div class="ml-5" style="font-size: 19px;">
+            <p style="text-align:center;color:grey;font-weight:600;margin-right:22px;">CÁC MẪU HOA ĐANG KHUYẾN MÃI</p>
+            <div id="forsale" class="text-secondary activeColor mr-3">Hoa đẹp đang có khuyến mãi</div>
+          <!--   <div id="forsale2" class="text-secondary mr-3">Hoa Ly Trắng</div>
+             <div id="forsale3" class="text-secondary">Hoa Ly Vàng</div>-->
+        </div>
+    </div>
+
+    <div class="salef active">
+        <div class="row">
+            @foreach (var item in ViewBag.getSPSALE)
+            {
+                <div class="col-lg-2_5 col-md-4 col-6 post2">
+                    <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="@item.Hinh" alt="">
+                            </div>
+                            @if (item.Giamgia == 0 || item.Giamgia == null)
+                            {
+                                <div class="product__sale">
+                                    <h4>Mới</h4>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="product__sale">
+                                    <h4>@item.Giamgia %</h4>
+                                </div>
+                            }
+                            <div class="product__content">
+                                <div class="product__title">
+                                    @item.Tensp
+                                </div>
+
+                                @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                                {
+                                    <div class="product__pride-oldPride">
+                                        <span class="Price">
+                                            <bdi>
+                                                @string.Format("{0:N0}", item.Giaban)
+                                                <span class="currencySymbol">₫</span>
+                                            </bdi>
+                                        </span>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="product__pride-newPride">
+                                <span class="Price">
+                                    <bdi>
+                                        @string.Format("{0:N0}", item.Giakhuyenmai)
+                                        <span class="currencySymbol">₫</span>
+                                    </bdi>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            }
+
+        </div>
+    </div> 
+</div>
+<style>
+    .body {
+        width: 85%;
+        padding: 10px 30px;
+        margin: 0 auto;
+        background: #fff;
+        box-shadow: 0 3px 8px rgb(0 0 0 / 15%);
+        border-radius: 10px;
+    }
+
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+
+        .body__mainTitle ~ p {
+            line-height: 3rem;
+            width: 80%;
+        }
+</style>

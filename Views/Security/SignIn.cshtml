@@ -1,0 +1,232 @@
+﻿@model SignIn
+
+@{
+    ViewData["Title"] = "SignIn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+<div class="container-fluid" style="background-color:#ff0c2d;">
+    <marquee behavior="scroll" direction="left">
+        <p style="color:#fff;font-weight:700;margin-top:11px;">CHƯƠNG TRÌNH KHUYẾN MÃI TRONG THÁNG ,CÁC MẪU HOA ĐẸP RẺ !!!</p>
+    </marquee>
+</div>
+<div class="login-forms1" style="top:12px;">
+ <!--   <div class="height360"> -->
+       <div class="row">
+           <div class="col-md-5">
+            <!--    <div class="main"> -->
+                    <form asp-controller="Security" asp-action="SignIn" method="post" class="form" id="form-2" style="background:#fff;">
+
+                        @if (@TempData["LoginErr"] != null)
+                        {
+                            <div class="alert alert-danger">@TempData["LoginErr"]</div>
+                        }
+
+                        <h4 class="heading" style="margin-bottom:15px;">ĐĂNG NHẬP</h4>
+
+                        @*<h4 class="text-danger">@ViewBag.msg</h4>
+                        <h4 class="text-danger"> @ViewData["blockAccount"]</h4>*@
+
+                        <div class="form-group">
+                            <label for="Fullname" class="form-labels" style="text-align:left;">Tên tài khoản</label>
+                            <input type="text" asp-for="UserName" class="form-control" requierd="" />
+                            <span class="form-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="form-labels" style="text-align:left;">Mật khẩu</label>
+                            <input type="password" asp-for="Password" class="form-control" required="" />
+                            <span class="form-message"></span>
+                        </div>
+
+                        <label asp-for="RememberMe" for="checkbox1" class="remember"><input type="checkbox" asp-for="RememberMe" id="checkbox1" class="checkbox1"> Ghi nhớ mật khẩu</label>
+
+                        <button type="submit" class="form-submit" value="Login" name="login_submit">Đăng nhập</button>
+                        <!--gg-->
+               <div class="buttongg">
+                    <button class="nutgg">
+                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262">
+                            <path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027"></path>
+                            <path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1"></path>
+                            <path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782"></path>
+                            <path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251"></path>
+                        </svg>
+                        Continue with Google
+                    </button>
+               </div>
+                        <!--end gg-->
+                        <div class="dont-have-account">
+                            Bạn chưa có tài khoản? <a class="account-register" asp-controller="Security" asp-action="Register">Đăng ký ngay</a>
+                        </div>
+                    </form>
+         <!--       </div> -->
+           </div>
+           <div class="col-md-7">
+                <div>
+                    
+                        <img src="~/Content/images/vv.png" width="100%" height="auto" class="img-fluid"/>
+                  
+                </div>
+             
+           </div>
+       </div>
+  <!--  </div> -->
+</div> 
+
+                <style>
+                    .buttongg {
+                        margin-top:10px;
+                    }
+    .nutgg {
+        width: 100%;
+        display: flex;
+        padding: 0.5rem 1.4rem;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        align-items: center;
+        border-radius: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        gap: 0.75rem;
+        color: rgb(65, 63, 63);
+        background-color: #fff;
+        cursor: pointer;
+        transition: all .6s ease;
+    }
+
+    .buttongg svg {
+        height: 24px;
+    }
+
+    buttongg:hover {
+        transform: scale(1.02);
+    }
+                    /**/
+    .form-submit {
+        outline: 0;
+        background-color: #ff0c2d;
+        margin-top: 16px;
+        padding: 12px 16px;
+        font-weight: 600;
+        color: #fff;
+        border: none;
+        width: 100%;
+        font-size: 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .login {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .login > a {
+      display: block;
+    }
+    .login > a > i {
+      font-size: 18px;
+      line-height: 25px;
+      color: #000;
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+    .login_list {
+        position: absolute;
+        top: 35px;
+        left: -90px;
+        display: none;
+        justify-content: left;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        list-style: none;
+        line-height: 40px;
+        text-align: left;
+        background: #fff;
+        border: 1px solid #3333331a;
+    }
+    .login_list > li {
+        list-style: none;
+        border-top: 1px solid #3333331a;
+        padding: 10px;
+    }
+    .login_list > li:hover{
+        background: #f1f1f1;
+    }
+    .login_list > li > a{
+        color: black;
+    }
+
+    .login_list active {
+        display: flex;
+    } 
+    .height360 {
+        height: 500px;
+        justify-content: center;
+        background-size: cover;
+        width: 360px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .height361 {
+        height: 500px;
+        justify-content: center;
+        background-size: cover;
+        width: 360px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .main {
+        justify-content: center;
+        background-size: cover;
+        width: 360px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+    }
+    .form {
+      width: 360px;
+      min-height: 100px;
+      padding: 32px 24px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      margin: 24px;
+      align-self: center;
+        box-shadow:0 0 10px #9b4356;
+    } 
+    
+   
+    .login-form {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+     
+       
+       
+        box-shadow: 0 3px 8px rgb(0 0 0 / 15%);
+        position: relative;
+        margin-top: -90px;
+       background:#ff0c2d;
+    }
+
+ 
+                </style>

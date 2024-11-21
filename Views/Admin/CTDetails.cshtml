@@ -1,0 +1,45 @@
+﻿@model IEnumerable<websitehoa.Models.ChiTietDonHang>
+@{
+    ViewBag.Title = "CTDetails";
+}
+<center>
+    <h2>Chi tiết sản phẩm</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>
+                Sản phẩm
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+                Đơn giá / 1 sản phẩm
+            </th>
+            <th>
+                Thành tiền
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaspNavigation.Tensp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tongsoluong)
+                </td>
+                <td>
+                    @String.Format("{0:0,0}", item.Gia) VNĐ
+                </td>
+                <td>
+                    @String.Format("{0:0,0}", item.Tonggia) VNĐ
+                </td>
+            </tr>
+
+        }
+
+    </table>
+</center>
+<br />

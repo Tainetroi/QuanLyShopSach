@@ -1,0 +1,192 @@
+﻿@model PaginatedList<SanPham>
+
+@{
+    ViewData["Title"] = "page-hoa cảm ơn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <center>
+        <img class="img-responsive" src="~/Content/images/bghome1.png" width="90%" height="auto" style="margin-top:10px;" />
+    </center>
+</div>
+<br />
+<div class="body" style="margin-top: 10px;">
+
+
+
+    <div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-2_5 col-md-4 col-6 post2">
+                    <a asp-controller="SanPham" asp-action="Details" asp-route-id="@item.Masp">
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="@item.Hinh" alt="">
+                            </div>
+                            @if (item.Giamgia == 0 || item.Giamgia == null)
+                            {
+                                <div class="product__sale">
+                                    <h6 style="color:#fff;">Mới</h6>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="product__sale">
+                                    <h4>@item.Giamgia %</h4>
+                                </div>
+                            }
+                            <div class="product__content">
+                                <div class="product__title">
+                                    @item.Tensp
+                                </div>
+
+                                @if (!(item.Giamgia == 0 || item.Giamgia == null))
+                                {
+                                    <div class="product__pride-oldPride">
+                                        <span class="Price">
+                                            <bdi>
+                                                @string.Format("{0:N0}", item.Giaban)
+                                                <span class="currencySymbol">₫</span>
+                                            </bdi>
+                                        </span>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="product__pride-newPride">
+                                <span class="Price">
+                                    <bdi>
+                                        @string.Format("{0:N0}", item.Giakhuyenmai)
+                                        <span class="currencySymbol">₫</span>
+                                    </bdi>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            }
+        </div>
+
+        <!--Pagination-->
+        <ul class="pagination justify-content-center" style="margin: 10px auto;margin-top:30px;">
+            @if (Model.HasPreviousPage)
+            {
+                <li class="page-item"><a class="page-link" href="@Url.Action("pagehoacamon", new { pageNumber = Model.PageIndex - 1 })">Previous</a></li>
+            }
+
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                if (i == Model.PageIndex)
+                {
+                    <li class="page-item active"><a href="" class="page-link"> @i</a></li>
+                }
+                else
+                {
+                    <li class="page-item"><a class="page-link" href="@Url.Action("pagehoacamon", new { pageNumber = i })">@i</a></li>
+                }
+            }
+
+            @if (Model.HasNextPage)
+            {
+                <li class="page-item"><a class="page-link" href="@Url.Action("pagehoacamon", new { pageNumber = Model.PageIndex + 1 })">Next</a></li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+<div class="infoshop">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/Content/uploads/in1.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Giao hàng cực nhanh</h5>
+                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/Content/uploads/info2.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Mua hàng siêu tiết kiệm</h5>
+                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="info1">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/Content/uploads/info3.png" class="img-fluid" />
+                    </div>
+                    <div class="col-md-9">
+                        <h5>Sản phẩm chính hãng 100%</h5>
+                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    .product__sale {
+        background-color: red;
+        border-radius: 50%;
+        padding: 7px 7px;
+    }
+
+    .body {
+        width: 100%;
+        padding: 10px 30px;
+        margin: 0 auto;
+        background: #fff;
+    }
+
+    .body__mainTitle {
+        border-bottom: 1px solid #d9d9d9;
+        margin-bottom: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .post2 {
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .post2:hover {
+            transform: scale(1.07);
+        }
+
+    .infoshop {
+        padding: 20px 20px;
+        margin-top: 15px;
+    }
+
+    .info1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .info1 h5 {
+        color: green;
+    }
+</style>
