@@ -1,133 +1,54 @@
 ﻿@model IEnumerable<websitehoa.Models.DichVu>
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Giới thiệu Nhà Sách";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="~/Content/scripts/zoomsl.min.js"></script>
 
 <div class="ship-header">
-   <strong>Giao hoa tận nơi các Quận, Huyện tại Cần Thơ</strong>
-    <p><strong>Chuyên viên tư vấn :</strong><span>0123 456 789</span> - <span>0123 456 789</span><strong>(Tư vấn qua Zalo, FaceBook)</strong></p>
+    <strong>Giao sách tận nơi toàn quốc</strong>
+    <p><strong>Chuyên viên tư vấn :</strong><span>0123 456 789</span> - <span>0123 456 789</span><strong> (Tư vấn qua Zalo, FaceBook)</strong></p>
 </div>
+
 <div class="all-infoshop">
     <div class="row">
-        <!---->
-
         <div class="col-md-9">
-
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb" style="background-color:#fff;margin-left:12px;">
                     <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
-                    <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Thông tin</li> <!---->
+                    <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Giới thiệu</li>
                 </ol>
             </nav>
 
             <main aria-labelledby="title">
-                <!--<h2 id="title">@ViewBag.Title.</h2> -->
-
                 <div class="aboutshop">
-                    <p><strong>PeTose</strong> là 1 trong những shop hoa tươi ở Việt Nam được đánh giá rất cao về chất lượng sản phẩm, dịch vụ và tuổi đời thương hiệu. Được ghi nhận không chỉ bởi khách hàng mà <strong>PeTose</strong> còn được các cơ quan báo chí, đài truyền hình Việt Nam trực tiếp đến phỏng vấn và hỗ trợ quảng bá..Cung cấp hơn 500 sản phẩm hoa hồng và các loại khác nhau được nhập khẩu từ các nước Châu Âu với chất lượng cao cho khách hàng. Chúng tôi luôn luôn chăm chút đến từng chi tiết để người nhận hoa có được trải nghiệm tặng quà thật tuyệt vời.</p>
-                    <p>Có bao giờ bạn tự hỏi: Lần gần nhất bạn thấy đôi mắt long lanh của người thương (mẹ, vợ, người yêu hoặc đơn giản là một người bạn thân) khi nhận từ bạn một lời chúc, một lời khen, một món quà, một lẵng hoa… là khi nào? Và bạn cảm nhận được tình yêu thương trong ánh mắt ấy, nó thật hạnh phúc phải không?.</p>
+                    <p><strong>BookZone</strong> là một trong những hệ thống nhà sách trực tuyến uy tín tại Việt Nam. Chúng tôi tự hào cung cấp hàng ngàn đầu sách thuộc nhiều thể loại như văn học, kỹ năng sống, giáo dục, kinh tế, công nghệ, sách thiếu nhi, và nhiều hơn nữa.</p>
+                    <p>Với mục tiêu lan tỏa tri thức, <strong>BookZone</strong> mong muốn mang đến cho bạn những cuốn sách giá trị, được chọn lọc kỹ càng với mức giá hợp lý và dịch vụ chăm sóc khách hàng tận tâm.</p>
                     <div>
                         <center>
-                            <img class="img-responsive" src="~/Content/images/anhif1.png" width="85%" />
+                            <img class="img-responsive" src="~/Content/images/nenbody1.jpg" width="85%" />
                         </center>
                     </div>
                     <br />
-                    <p>Và chúng tôi, những người bạn, những chàng trai, <strong>PeTose</strong> đầy nhiệt huyết với sự cởi mở, nhiệt tình, và tâm niệm việc khơi gợi, chia sẻ yêu thương là một hạnh phúc lớn lao cho mọi người. Cho nên, chúng tôi bằng cả sự Trân Trọng để bạn thể hiện tình cảm yêu thương của mình cho tất cả những người thân thương.</p>
-                    <p>Hãy cùng <strong>PeTose</strong> để hòa nhịp khúc đồng ca yêu thương vào tất cả những ngày để gửi những lẵng hoa tươi thắm nhất nhằm tỏ lòng cảm kích, tri ân đến những người yêu thương của mình. Và đó sẽ thật vô cùng hạnh phúc với cách thể hiện của bạn. <strong>PeTose</strong> tin là như thế!.</p>
-                    <h5 class="text-primary">VÌ SAO CHỌN PeTose</h5>
-                    <p>Tại <strong>PeTose</strong>, chúng tôi chăm chút đến từng chi tiết để người nhận hoa có được trải nghiệm tặng quà thật tuyệt vời. Chúng tôi rất vui mừng mang đến cho khách hàng trải nghiệm về hoa tốt nhất bằng cách cung cấp cho họ nhiều màu sắc và kiểu dáng hoa khác nhau để phù hợp với mọi sự kiện và sở thích.</p>
-                    <h5 class="text-primary">NHỮNG BÓ HOA LỘNG LẪY VÀ SANG TRỌNG</h5>
-                    <p>Chúng tôi cam kết mang những bó hoa tươi và đặc biệt nhất gửi đến người đặc biệt của bạn, vào dịp Lễ Tình Nhân hay Ngày Của Mẹ hoặc những dịp đặc biệt khác. Nếu quý khách có yêu cầu đặc biệt cho bó hoa của mình, hãy liên lạc với chúng tôi.</p>
-                    <h5 class="text-primary">GIAO HÀNG ĐÚNG GIỜ</h5>
-                    <p><strong>PeTose</strong> luôn nỗ lực hết mình để cung cấp cho quý khách dịch vụ giao hoa đúng giờ và chuyên nghiệp nhất.</p>
+                    <p>Chúng tôi tin rằng đọc sách là con đường ngắn nhất để tiếp cận tri thức và phát triển bản thân. BookZone cam kết mang đến những trải nghiệm mua sách trực tuyến đơn giản, nhanh chóng và thuận tiện nhất cho bạn.</p>
+                    <h5 class="text-primary">TẠI SAO CHỌN BOOKZONE?</h5>
+                    <p>✓ Hơn 10.000+ đầu sách chính hãng từ các nhà xuất bản uy tín.</p>
+                    <p>✓ Giao hàng toàn quốc – nhanh chóng và đảm bảo.</p>
+                    <p>✓ Ưu đãi thường xuyên và chính sách đổi trả dễ dàng.</p>
+                    <h5 class="text-primary">NHỮNG ĐẦU SÁCH ĐÁNG CHÚ Ý</h5>
+                    <p>Chúng tôi tuyển chọn những tác phẩm nổi bật được yêu thích bởi độc giả và giới chuyên môn để giới thiệu đến bạn. Từ các best-seller quốc tế đến các tác phẩm kinh điển và sách kỹ năng thực tiễn.</p>
+                    <h5 class="text-primary">DỊCH VỤ GIAO HÀNG ĐÚNG HẸN</h5>
+                    <p><strong>BookZone</strong> luôn đặt lợi ích khách hàng lên hàng đầu bằng việc đảm bảo đơn hàng được xử lý và vận chuyển đúng thời gian cam kết.</p>
                 </div>
             </main>
         </div>
-        <!---->
-         <div class="col-md-3">
-            <!--tin tức nổi bật-->
-            <div class="standout-block">
-                <center>
-                    <h4 style="margin-top:4px;">BÀI VIẾT NỔI BẬT</h4>
-                    <hr />
-                </center>
-                <div class="all-noibat">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="~/Content/uploads/post1.png" class="img-fluid" />
-                        </div>
-                        <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="all-noibat">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
-                        </div>
-                        <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="all-noibat">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
-                        </div>
-                        <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="all-noibat">
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
-                        </div>
-                        <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-            </div>
-            <!--end-->
-            <div class="danhmuc">
-                <div class="list-group" style="border-radius:0px;margin-top:7px;">
-                    <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm </a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
-                </div>
-            </div>
-        </div>
-        <!---->
+       
     </div>
 </div>
 
-
-
-
-
+<!-- Thông tin dịch vụ -->
 <div class="infoshop">
     <div class="row">
         <div class="sever-shop col-md-4">
@@ -137,8 +58,8 @@
                         <img src="~/Content/uploads/in1.png" class="img-fluid" />
                     </div>
                     <div class="col-md-9">
-                        <h5>Giao hàng cực nhanh</h5>
-                        <p>Miễn phí với đơn hàng trị giá trên 800.000đ</p>
+                        <h5>Giao sách nhanh chóng</h5>
+                        <p>Miễn phí với đơn hàng từ 500.000đ trở lên</p>
                     </div>
                 </div>
             </div>
@@ -150,8 +71,8 @@
                         <img src="~/Content/uploads/info2.png" class="img-fluid" />
                     </div>
                     <div class="col-md-9">
-                        <h5>Mua hàng siêu tiết kiệm</h5>
-                        <p>Rẻ hơn từ 10% – 30% so với giá thị trường</p>
+                        <h5>Tiết kiệm tối đa</h5>
+                        <p>Ưu đãi đến 40% cho sách mới</p>
                     </div>
                 </div>
             </div>
@@ -163,17 +84,14 @@
                         <img src="~/Content/uploads/info3.png" class="img-fluid" />
                     </div>
                     <div class="col-md-9">
-                        <h5>Sản phẩm chính hãng 100%</h5>
-                        <p>Sản phẩm được nhập khẩu chính hãng</p>
+                        <h5>Sách chính hãng 100%</h5>
+                        <p>Cam kết sách thật từ nhà xuất bản</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-
 
 <style>
     .list-group-item {
@@ -185,6 +103,7 @@
             color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
     .danhmuc {
         margin-top: 10px;
         padding: 12px 12px;
@@ -193,9 +112,11 @@
         .danhmuc a {
             color: green;
         }
-        .standout-block {
-            padding:0 17px;
-        }
+
+    .standout-block {
+        padding: 0 17px;
+    }
+
     .all-noibat {
         margin-top: 15px;
     }
@@ -209,15 +130,18 @@
             height: auto;
             margin-top: 11px;
         }
+
     .ship-header {
-        padding:26px 0;
-        text-align:center;
+        padding: 26px 0;
+        text-align: center;
     }
-    .ship-header span {
-        font-weight:700;
-        color:red;
-        margin:0 6px;
-    }
+
+        .ship-header span {
+            font-weight: 700;
+            color: red;
+            margin: 0 6px;
+        }
+
     .aboutshop {
         padding: 12px 28px;
     }
@@ -235,19 +159,4 @@
     .info1 h5 {
         color: green;
     }
-
-    .bannerhoa {
-        border-radius: 5px;
-        height: 100px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-        .bannerhoa > div {
-            font-size: 20px;
-        }
-
-  
 </style>

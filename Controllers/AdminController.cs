@@ -22,6 +22,104 @@ namespace websitehoa.Controllers
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _hostingEnvironment;
 
+        public async Task<IActionResult> QLKhachHang(string searchString, int pageNumber = 1)
+        {
+            int pageSize = 10;
+            var query = _context.KhachHangs.AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(kh => kh.Hoten.Contains(searchString) || kh.Email.Contains(searchString));
+            }
+
+            var result = await PaginatedList<KhachHang>.CreateAsync(query.OrderBy(kh => kh.Makh), pageNumber, pageSize);
+            return View(result);
+        }
+
+
+        // GET: Chi tiết khách hàng
+        public IActionResult ChiTietKhachHang(int id)
+        {
+            var khachHang = _context.KhachHangs.Include(k => k.Role).FirstOrDefault(k => k.Makh == id);
+            if (khachHang == null)
+            {
+                return NotFound();
+            }
+            return View(khachHang);
+        }
+
+        // GET: Sửa khách hàng
+        public IActionResult SuaKhachHang(int id)
+        {
+            var khachHang = _context.KhachHangs.Find(id);
+            if (khachHang == null)
+            {
+                return NotFound();
+            }
+            ViewBag.Roles = _context.KhachHangRoles.ToList();
+            return View(khachHang);
+        }
+
+        // POST: Sửa khách hàng
+        [HttpPost]
+        public IActionResult SuaKhachHang(KhachHang khachHang)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Update(khachHang);
+                _context.SaveChanges();
+                return RedirectToAction("QLKhachHang");
+            }
+            ViewBag.Roles = _context.KhachHangRoles.ToList();
+            return View(khachHang);
+        }
+
+        // GET: Xóa khách hàng
+        public IActionResult XoaKhachHang(int id)
+        {
+            var khachHang = _context.KhachHangs.Find(id);
+            if (khachHang == null)
+            {
+                return NotFound();
+            }
+            return View(khachHang);
+        }
+
+        // POST: Xác nhận xóa
+        [HttpPost, ActionName("XoaKhachHang")]
+        public IActionResult XacNhanXoa(int id)
+        {
+            var khachHang = _context.KhachHangs.Find(id);
+            if (khachHang != null)
+            {
+                _context.KhachHangs.Remove(khachHang);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("QLKhachHang");
+        }
+
+        // GET: Thêm khách hàng mới
+        public IActionResult ThemKhachHang()
+        {
+            ViewBag.Roles = _context.KhachHangRoles.ToList();
+            return View();
+        }
+
+        // POST: Thêm khách hàng mới
+        [HttpPost]
+        public IActionResult ThemKhachHang(KhachHang khachHang)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.KhachHangs.Add(khachHang);
+                _context.SaveChanges();
+                return RedirectToAction("QLKhachHang");
+            }
+            ViewBag.Roles = _context.KhachHangRoles.ToList();
+            return View(khachHang);
+        }
+
+
         public AdminController(AppDbContext context, IWebHostEnvironment hostingEnvironment)
         {
             _context = context;

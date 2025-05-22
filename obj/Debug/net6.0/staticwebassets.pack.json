@@ -1,1123 +1,743 @@
 {
   "Files": [
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\css\\admin.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\css\\admin.css",
       "PackagePath": "staticwebassets\\Content\\admin\\css\\admin.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\css\\adminlte.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\Content\\admin\\css\\adminlte.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\img\\avatar.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\img\\avatar.png",
       "PackagePath": "staticwebassets\\Content\\admin\\img\\avatar.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\img\\logo.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\Content\\admin\\img\\logo.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\js\\.rescache",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\js\\.rescache",
       "PackagePath": "staticwebassets\\Content\\admin\\js\\.rescache"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\js\\adminlte.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\js\\adminlte.min.js",
       "PackagePath": "staticwebassets\\Content\\admin\\js\\adminlte.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\js\\demo.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\js\\demo.js",
       "PackagePath": "staticwebassets\\Content\\admin\\js\\demo.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\js\\printThis.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\js\\printThis.js",
       "PackagePath": "staticwebassets\\Content\\admin\\js\\printThis.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\admin\\summernote\\summernote-bs4.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\admin\\summernote\\summernote-bs4.min.js",
       "PackagePath": "staticwebassets\\Content\\admin\\summernote\\summernote-bs4.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\css\\admin.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\css\\admin.min.css",
       "PackagePath": "staticwebassets\\Content\\css\\admin.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\css\\animitions.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\css\\animitions.css",
       "PackagePath": "staticwebassets\\Content\\css\\animitions.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\css\\responsive1.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\css\\responsive1.css",
       "PackagePath": "staticwebassets\\Content\\css\\responsive1.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\css\\style.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\css\\style.min.css",
       "PackagePath": "staticwebassets\\Content\\css\\style.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\HoaSen.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\HoaSen.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\358839814_621929029765851_9155800288078741928_n.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\358839814_621929029765851_9155800288078741928_n.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\HoaSen3.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\HoaSen3.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\94322.png",
+      "PackagePath": "staticwebassets\\Content\\images\\94322.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\HoaSen4.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\HoaSen4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhif1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhif1.png",
       "PackagePath": "staticwebassets\\Content\\images\\anhif1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhif2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhif2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhif2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhnen33.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhnen33.png",
       "PackagePath": "staticwebassets\\Content\\images\\anhnen33.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhnen44.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhnen44.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhnen44.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhphu1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhphu1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhphu1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc4.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc4.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc4.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc5.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc5.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc5.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc6.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc6.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc6.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc7.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc7.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc7.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc8.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc8.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc8.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\anhtintuc9.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\anhtintuc9.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\anhtintuc9.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\bg-login.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\Content\\images\\avatar.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\bg-login.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\bg-login.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\bghome1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\bghome1.png",
       "PackagePath": "staticwebassets\\Content\\images\\bghome1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\bghome2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\bghome2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\bghome2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\bghome3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\bghome3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\bghome3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\empty_cart.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\chinhhang.png",
+      "PackagePath": "staticwebassets\\Content\\images\\chinhhang.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\dacnhantam.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\dacnhantam.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\dlbook.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\dlbook.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\doc1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\doc1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\doc2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\doc2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\empty_cart.png",
       "PackagePath": "staticwebassets\\Content\\images\\empty_cart.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\logo1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\giaohang.png",
+      "PackagePath": "staticwebassets\\Content\\images\\giaohang.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\hoahoc2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\hoahoc2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\hotline.png",
+      "PackagePath": "staticwebassets\\Content\\images\\hotline.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\htmlcss.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\htmlcss.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\in1.png",
+      "PackagePath": "staticwebassets\\Content\\images\\in1.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\info2.png",
+      "PackagePath": "staticwebassets\\Content\\images\\info2.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\info3.png",
+      "PackagePath": "staticwebassets\\Content\\images\\info3.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\kinhte.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\kinhte.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\laptrinhcpp.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\laptrinhcpp.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\lichsu1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\lichsu1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\lichsu2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\lichsu2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\login_logo.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\login_logo.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logo1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\logo1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logo1.png",
       "PackagePath": "staticwebassets\\Content\\images\\logo1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\logo2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logo2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\logo2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\logo3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logo3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\logo3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\logo4.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logo4.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\logo4.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\minhhoa1.jpg",
-      "PackagePath": "staticwebassets\\Content\\images\\minhhoa1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\logohot.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\logohot.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\minhhoa2.jpeg",
-      "PackagePath": "staticwebassets\\Content\\images\\minhhoa2.jpeg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\minhhoa3.png",
-      "PackagePath": "staticwebassets\\Content\\images\\minhhoa3.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\minhhoa4.png",
-      "PackagePath": "staticwebassets\\Content\\images\\minhhoa4.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\minhhoa5.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\minhhoa5.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\minhhoa5.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\momo.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\mlbook.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\mlbook.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\momo.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\momo.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nen1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nen1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nen1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nen2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nen2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nen2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nen3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nen3.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nen3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nen7.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nen7.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nen7.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nenall1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nenall1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nenall1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nenlogin1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nenbody1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\nenbody1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nenhoacuoi1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\nenhoacuoi1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nenlogin1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nenlogin1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\nenlogin2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\nenlogin2.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\nenlogin2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\pngegg.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\pngegg.png",
       "PackagePath": "staticwebassets\\Content\\images\\pngegg.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\sale.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\pythonbasic.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\pythonbasic.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\register.PNG",
+      "PackagePath": "staticwebassets\\Content\\images\\register.PNG"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sachkynang1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sachkynang1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sachkynang2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sachkynang2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sachkynang3.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sachkynang3.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sachthieunhi1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sachthieunhi1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sachthieunhi2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sachthieunhi2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sale.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\sale.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\sale.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sale.png",
       "PackagePath": "staticwebassets\\Content\\images\\sale.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\sale1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sale1.png",
       "PackagePath": "staticwebassets\\Content\\images\\sale1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\search_18px.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\save.png",
+      "PackagePath": "staticwebassets\\Content\\images\\save.png"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\search_18px.png",
       "PackagePath": "staticwebassets\\Content\\images\\search_18px.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\shopping-cart.svg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\shopping-cart.svg",
       "PackagePath": "staticwebassets\\Content\\images\\shopping-cart.svg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\tintucnb1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\sinhhoc1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\sinhhoc1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\tieuthuyet1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\tieuthuyet1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\tieuthuyet2.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\tieuthuyet2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\tintucnb1.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\tintucnb1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\undefind.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\toan12.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\toan12.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\undefind.png",
       "PackagePath": "staticwebassets\\Content\\images\\undefind.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\user.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\user.jpg",
       "PackagePath": "staticwebassets\\Content\\images\\user.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\images\\vv.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\vanhocnuocngoai.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\vanhocnuocngoai.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\vanhocvn.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\vanhocvn.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\vatly1.jpg",
+      "PackagePath": "staticwebassets\\Content\\images\\vatly1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\images\\vv.png",
       "PackagePath": "staticwebassets\\Content\\images\\vv.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\scripts\\script.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\scripts\\script.js",
       "PackagePath": "staticwebassets\\Content\\scripts\\script.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\scripts\\zoomsl.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\scripts\\zoomsl.min.js",
       "PackagePath": "staticwebassets\\Content\\scripts\\zoomsl.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\358839814_621929029765851_9155800288078741928_n.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\358839814_621929029765851_9155800288078741928_n.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\94322.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\94322.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\94322.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\HoaSen.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\HoaSen.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\HoaSen4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\HoaSen4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\avatar.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\avatar.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\avatar.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\bohoa1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\bohoa1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\bohoa2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\bohoa2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\bohoa3.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\bohoa3.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\bohoa4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\bohoa4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\caiao6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\caiao6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\cambinh8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\cambinh8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camchuong8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camchuong8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camon1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camon1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo10.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo10.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo2.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo2.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtudo9.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtudo9.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtuhong1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtuhong1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtut1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtut1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtut2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtut2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtut3.jpeg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtut3.jpeg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtut4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtut4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtut5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtut5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtutrang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtutrang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\camtutrang2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\camtutrang2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\chinhhang.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\chinhhang.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\chinhhang.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\codau1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\codau1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\dacnhantam.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\dacnhantam.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\doc1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\dlbook.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\dlbook.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\doc1.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\doc1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\doc2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\doc2.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\doc2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\giaohang.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\giaohang.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\giaohang.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\hoahoc2.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\hoahoc2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio5.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio5.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio7.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio7.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\gio8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\gio8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoacuoi6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoacuoi6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoado1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoado1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoado2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoado2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoado3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoado3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoado4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoado4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoado5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoado5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoadon7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoadon7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoahongdo1.jpeg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoahongdo1.jpeg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoahonhop1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoahonhop1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoalydo1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoalydo1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoalytrang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoalytrang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoalyvang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoalyvang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend10.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend10.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasend9.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasend9.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenda1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenda1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh10.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh10.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenh9.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenh9.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasenhong1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasenhong1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent10.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent10.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent7.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent7.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent8.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent8.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasent9.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasent9.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasentrang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasentrang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoasentrang2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoasentrang2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoatuoi1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoatuoi1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hoaxanh1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hoaxanh1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hongxanh1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hongxanh1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hongxanh2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hongxanh2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hongxanh3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hongxanh3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hongxanh4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\hongxanh4.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\honhop1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\honhop1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\honhop2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\honhop2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\hotline.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\hotline.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\hotline.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\in1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\htmlcss.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\htmlcss.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\in1.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\in1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\info2.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\info2.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\info2.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\info3.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\info3.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\info3.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\kinhte.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\kinhte.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang2.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\laptrinhcpp.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\laptrinhcpp.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang3.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\lichsu1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\lichsu1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang4.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\lichsu2.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\lichsu2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang5.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang5.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lang6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lang6.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\login_logo.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\login_logo.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\login_logo.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\logo1.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logo1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\logo1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logo1.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\logo1.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\logo2.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logo2.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\logo2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\logo3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logo3.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\logo3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\logo4.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logo4.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\logo4.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\logohot.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\logohot.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\logohot.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lydo1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lydo1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lydo2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lydo2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lytrang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lytrang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lytrang2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lytrang2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lytrang3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lytrang3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lyvang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lyvang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\lyvang2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\lyvang2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\mau1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau2.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\mau2.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau3.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\mau3.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau4.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\mau4.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\mau4.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau5.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\mau5.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\mau5.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\mau6.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\mau6.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\mau6.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nen3.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\mlbook.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\mlbook.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\nen3.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\nen3.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nen7.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\nen7.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\nen7.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nenall1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\nenall1.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\nenall1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nenbody1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\nenbody1.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\nenbody1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nenhoacuoi1.jpg",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\nenhoacuoi1.jpg",
       "PackagePath": "staticwebassets\\Content\\uploads\\nenhoacuoi1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\nhagiao1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\nhagiao1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\pythonbasic.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\pythonbasic.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\phunu1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\phunu1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\post1.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\post1.png"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\post2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\post2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\post3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\post3.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\register.PNG",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\register.PNG",
       "PackagePath": "staticwebassets\\Content\\uploads\\register.PNG"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\rewiu1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\rewiu1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sachkynang1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sachkynang1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sale.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sachkynang2.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sachkynang2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sachkynang3.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sachkynang3.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sachthieunhi1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sachthieunhi1.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sachthieunhi2.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sachthieunhi2.jpg"
+    },
+    {
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sale.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\sale.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\save.png",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\save.png",
       "PackagePath": "staticwebassets\\Content\\uploads\\save.png"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sinhnhat1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sinhnhat1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\sinhhoc1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\sinhhoc1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp1.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\tieuthuyet1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\tieuthuyet1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp2.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp2.png"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\tieuthuyet2.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\tieuthuyet2.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp3.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp3.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\toan12.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\toan12.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp4.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp4.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\vanhocnuocngoai.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\vanhocnuocngoai.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp5.png",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp5.png"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\vanhocvn.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\vanhocvn.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sp6.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sp6.jpg"
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\Content\\uploads\\vatly1.jpg",
+      "PackagePath": "staticwebassets\\Content\\uploads\\vatly1.jpg"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\sukien1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\sukien1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\tang1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\tang1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\them1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\them1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\them2.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\them2.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\Content\\uploads\\tonghop1.jpg",
-      "PackagePath": "staticwebassets\\Content\\uploads\\tonghop1.jpg"
-    },
-    {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\.rescache",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\.rescache"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\websitehoa\\websitehoa\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\WebSite_BanSach_NetCore\\websitesachnetcore\\websitesachnetcore\\websitehoa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.websitehoa.props",
-      "PackagePath": "build\\websitehoa.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.websitesachnetcore.props",
+      "PackagePath": "build\\websitesachnetcore.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.websitehoa.props",
-      "PackagePath": "buildMultiTargeting\\websitehoa.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.websitesachnetcore.props",
+      "PackagePath": "buildMultiTargeting\\websitesachnetcore.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.websitehoa.props",
-      "PackagePath": "buildTransitive\\websitehoa.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.websitesachnetcore.props",
+      "PackagePath": "buildTransitive\\websitesachnetcore.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.websitehoa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.websitesachnetcore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.websitesachnetcore.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     }
   ],

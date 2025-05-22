@@ -14,7 +14,7 @@
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb" style="background-color:#fff;margin-left:40px;">
         <li class="breadcrumb-item"><a href="/" style="color:green;">Trang chủ</a></li>
-        <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Tất cả mẫu hoa</li> <!---->
+        <li class="breadcrumb-item active" aria-current="page" style="color:#ff5622;font-weight:700;">Tất cả mẫu sách</li> <!---->
     </ol>
 </nav>
 <!---->
@@ -24,20 +24,19 @@
            <div class="col-md-3">
                <!--danh mục mẫu hoa-->
             <div class="list-mauhoa list-group" style="border-radius:0px;margin-left:20px;margin-top:7px;">
-                <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Lựa chọn mẫu hoa</a>
+                <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Lựa chọn mẫu sách</a>
                     
-                        <a class="list-group-item list-group-item-action" id="mau-hoa-moi" asp-controller="SanPham" asp-action="">Mẫu hoa mới</a>                                                                           
+                        <a class="list-group-item list-group-item-action" id="mau-hoa-moi" asp-controller="SanPham" asp-action="">Mẫu sách mới</a>                                                                           
                 <!--menu product-->
                 <div class="dropdown-content fade-in-right" id="mau-hoa-moi">
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoahongpage">Hoa Hồng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoahongpage">Sách Văn Học</a>
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoalypage">Hoa Ly</a>
-                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasenpage">Hoa Sen</a>
-                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamtupage">Hoa Cẩm Tú</a>
-                      <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="">Hoa cẩm Chướng</a>
+                    <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasenpage">Sách Kỹ Năng</a>
+                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamtupage">Sách Lịch Sử</a>
                 </div>
                 <!--end-->
 
-                <a class="list-group-item list-group-item-action" id="mau-kieu-hoa" asp-controller="SanPham" asp-action="">Mẫu kiểu hoa</a>
+                @* <a class="list-group-item list-group-item-action" id="mau-kieu-hoa" asp-controller="SanPham" asp-action="">Mẫu kiểu hoa</a>
                 <!--menu product-->
                 <div class="dropdown-content fade-in-right" id="mau-kieu-hoa" style="margin-top:60px;">
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoadonpage">Hoa Đơn</a>
@@ -45,9 +44,9 @@
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacambinhpage">Hoa Cắm Bình</a>
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoalangpage">Hoa Lẵng</a>
                     
-                </div>
+                </div> *@
                 <!--end-->
-                <a class="list-group-item list-group-item-action" id="mau-kieu-hoa-khac" asp-controller="SanPham" asp-action="">Mẩu các loại hoa khác</a>
+                @* <a class="list-group-item list-group-item-action" id="mau-kieu-hoa-khac" asp-controller="SanPham" asp-action="">Mẩu các loại hoa khác</a>
                 <!--menu product-->
                 <div class="dropdown-content fade-in-right" id="mau-kieu-hoa-khac" style="margin-top:120px;">
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoabopage">Mẫu bó hoa lớn</a>
@@ -55,7 +54,7 @@
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Mẫu hoa dịp lễ lớn</a>
                     <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Mẫu hoa cưới</a>
                    
-                </div>
+                </div> *@
                 <!--end-->
                 <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="salehot">Mẫu khuyến mãi</a>
             </div>
@@ -63,21 +62,17 @@
                <!--danh mục sản phẩm-->
             <div class="list-mauhoa list-group" style="border-radius:0px;margin-left:20px;margin-top:7px;">
                 <a href="#" style="color:red;text-align:center;" class="list-group-item list-group-item-action">Danh mục sản phẩm</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Hoa cảm ơn</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Hoa sinh nhật</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Hoa sự kiện</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatuoi">Hoa tươi</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Hoa quà tặng</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Hoa tổng hợp</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacaiao">Hoa cài áo</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacodau">Hoa cô dâu</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaphunu">Hoa ngày phụ nữ</a>
-                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Hoa ngày nhà giáo</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoacamon">Sách cảm ơn</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasinhnhat">Sách sinh nhật</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoasukien">Sách sự kiện</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoaquatang">Sách quà tặng</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoatonghop">Sách tổng hợp</a>
+                <a class="list-group-item list-group-item-action" asp-controller="SanPham" asp-action="hoanhagiao">Sách ngày nhà giáo</a>
             </div>
                <!--end-->
             <div class="imagedoc">
                 <img src="~/Content/uploads/doc2.jpg" class="img-fluid" />
-                <p>Gọi ngay <strong style="color:red;">0123.456.789</strong> để được tư vấn chọn mẫu hoa phù hợp.</p>
+                <p>Gọi ngay <strong style="color:red;">0123.456.789</strong> để được tư vấn khi gặp khó khăn.</p>
             </div>
             <!--tin tức nổi bật-->
             <div class="standout-block">
@@ -91,7 +86,7 @@
                             <img src="~/Content/uploads/post1.png" class="img-fluid" />
                         </div>
                         <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Màu sắc hoa nào sẽ thống trị làng hoa trong năm 2018?</a></h6>
+                            <h6> <a href="@Url.Action("noibatmot", "Tintuc")" style="color:black;">Sách nào sẽ thống trị làng sách trong năm 2025?</a></h6>
                         </div>
                     </div>
                 </div>
@@ -102,7 +97,7 @@
                             <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
                         </div>
                         <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Hoa cẩm tú quỳnh – loài hoa đẹp nhất tháng 9 này tỏa hương</a></h6>
+                            <h6> <a href="@Url.Action("noibathai", "Tintuc")" style="color:black;">Sách kỹ năng sống – Hỗ trợ bạn trong những lúc cần thiết</a></h6>
                         </div>
                     </div>
                 </div>
@@ -113,7 +108,7 @@
                             <img src="~/Content/uploads/post3.jpg" class="img-fluid" />
                         </div>
                         <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm hoa nổi bật năm 2018</a></h6>
+                            <h6> <a href="@Url.Action("noibatba", "Tintuc")" style="color:black;">Điểm danh các xu hướng cắm sách nổi bật năm 2025</a></h6>
                         </div>
                     </div>
                 </div>
@@ -124,7 +119,7 @@
                             <img src="~/Content/uploads/post2.jpg" class="img-fluid" />
                         </div>
                         <div class="col-sm-9">
-                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu cắm hoa đang được sao Việt ưa chuộng</a></h6>
+                            <h6> <a href="@Url.Action("noibatbon", "Tintuc")" style="color:black;">Cập nhật những mẫu sách đang được sao Việt ưa chuộng</a></h6>
                         </div>
                     </div>
                 </div>

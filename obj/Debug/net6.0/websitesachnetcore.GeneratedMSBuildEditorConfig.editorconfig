@@ -1,0 +1,289 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = websitesachnetcore
+build_property.RootNamespace = websitesachnetcore
+build_property.ProjectDir = D:\WebSite_BanSach_NetCore\websitesachnetcore\websitesachnetcore\websitehoa\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\WebSite_BanSach_NetCore\websitesachnetcore\websitesachnetcore\websitehoa
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/ChiTietDonHangAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldERvbkhhbmdBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/ChiTietKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2hpVGlldEtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/CTDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ1REZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/QLChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUUxDaGlUaWV0RG9uSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/QLDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUUxEb25IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/QLKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUUxLaGFjaEhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/SuaKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VhS2hhY2hIYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Admin/XoaKhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cWG9hS2hhY2hIYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Cart/DatHangThanhCong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxEYXRIYW5nVGhhbmhDb25nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/DichVu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGljaFZ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/DonHangs/ChiTietDonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcQ2hpVGlldERvbkhhbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/DonHangs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/khuyenmai/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Nca2h1eWVubWFpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoabopage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2Fib3BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoacaiao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FjYWlhby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoacambinhpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FjYW1iaW5ocGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoacamon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FjYW1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoacamtupage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FjYW10dXBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoacodau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2Fjb2RhdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoadonpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2Fkb25wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoahongpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2Fob25ncGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoalangpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FsYW5ncGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoalypage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FseXBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoanhagiao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FuaGFnaWFvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoaphunu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FwaHVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoaquatang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FxdWF0YW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoasenpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FzZW5wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoasinhnhat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FzaW5obmhhdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoasukien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2FzdWtpZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoatonghop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2F0b25naG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/hoatuoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxob2F0dW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/NotFoundProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxOb3RGb3VuZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/pagehoacamon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxwYWdlaG9hY2Ftb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/sale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxzYWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/salehot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxzYWxlaG90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/SanPham/TatCaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxUYXRDYVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Security/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Security/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Security/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcU2lnbkluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/thongtin/thongtin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcdGhvbmd0aW5cdGhvbmd0aW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/noibatba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXG5vaWJhdGJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/noibatbon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXG5vaWJhdGJvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/noibathai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXG5vaWJhdGhhaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/noibatmot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXG5vaWJhdG1vdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Yy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y2JhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucbay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y2JheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucbon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y2Jvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintuchai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y2hhaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucmot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y21vdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucnam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y25hbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintucsau.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y3NhdS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/Tintuc/Tintuctam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGludHVjXFRpbnR1Y3RhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/WebSite_BanSach_NetCore/websitesachnetcore/websitesachnetcore/websitehoa/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

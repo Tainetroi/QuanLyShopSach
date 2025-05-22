@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SHOP-HoaDTH</title>
+    <title>SHOP-SachDTS</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
      <link rel="stylesheet" href="~/Content/css/style.min.css" />
       <link rel="stylesheet" href="~/Content/css/animitions.css" />
@@ -17,7 +17,7 @@
     <!--thông tin 1-->   
     <div class="contentfirst">
        <div class="nd1">
-            <p class="chaomung"> Chào mừng bạn đến với HOADTH 
+            <p class="chaomung"> Chào mừng bạn đến với SachDTS 
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16" style="margin-left:5px;margin-bottom:4px;">
                         <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132" />
                     </svg></p>
@@ -39,7 +39,7 @@
   
     <!--end-->
     <!--thông tin 2-->
-    <div class="container-fluid" style=" background-color: #539414; color: #fff;">
+    <div class="container-fluid" style=" background-color: darkslategray; color: #fff;">
         <div class="row">
             <div class="col-md-1">
             </div>
@@ -47,7 +47,7 @@
                 <div class="image1">
                    <!-- <img src="~/Content/images/pngegg.png" class="img-fluid" />-->
                     <h1 style="margin-top:21px;">
-                        <a href="/" style="text-decoration:none;color:#fff;font-family:satisfy;">HoaDTH</a><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-flower2" viewBox="0 0 16 16">
+                        <a href="/" style="text-decoration:none;color:#fff;font-family:satisfy;">SachDTS</a><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-flower2" viewBox="0 0 16 16">
                             <path d="M8 16a4 4 0 0 0 4-4 4 4 0 0 0 0-8 4 4 0 0 0-8 0 4 4 0 1 0 0 8 4 4 0 0 0 4 4m3-12q0 .11-.03.247c-.544.241-1.091.638-1.598 1.084A3 3 0 0 0 8 5c-.494 0-.96.12-1.372.331-.507-.446-1.054-.843-1.597-1.084A1 1 0 0 1 5 4a3 3 0 0 1 6 0m-.812 6.052A3 3 0 0 0 11 8a3 3 0 0 0-.812-2.052c.215-.18.432-.346.647-.487C11.34 5.131 11.732 5 12 5a3 3 0 1 1 0 6c-.268 0-.66-.13-1.165-.461a7 7 0 0 1-.647-.487m-3.56.617a3 3 0 0 0 2.744 0c.507.446 1.054.842 1.598 1.084q.03.137.03.247a3 3 0 1 1-6 0q0-.11.03-.247c.544-.242 1.091-.638 1.598-1.084m-.816-4.721A3 3 0 0 0 5 8c0 .794.308 1.516.812 2.052a7 7 0 0 1-.647.487C4.66 10.869 4.268 11 4 11a3 3 0 0 1 0-6c.268 0 .66.13 1.165.461.215.141.432.306.647.487M8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
                         </svg>
                     </h1>
@@ -57,7 +57,7 @@
                 <div class="navbar__center" style="margin-top:15px;">
 
                     <form method="get" asp-controller="SanPham" asp-action="Search" class="navbar__search" id="formSearch">
-                        <input class="search" id="message" name="search" placeholder="Tìm mẫu hoa..." type="text" value="" style="width:420px;">
+                        <input class="search" id="message" name="search" placeholder="Tìm mẫu sách..." type="text" value="" style="width:420px;">
                        <button class="btn btn-danger" style="margin-left:8px;"> <i class="fa fa-search" id="searchBtn" type="submit"></i></button>
                     </form>
                 </div>
@@ -84,7 +84,7 @@
     </div>
     <!--end-->
     <!--content3-->
-    <div class="content3" style=" background-color: #539414;">
+    <div class="content3" style=" background-color: darkslategray;">
         <div class="row">
             <div class="listdanhmuchoa col-sm-3">
                 <a href="" data-toggle="modal" data-target="#Modaldanhmuc">
@@ -122,74 +122,42 @@
                                
                             </div>
                           <h6 class="sp-block">DANH MỤC SẢN PHẨM</h6>
-                          <p class="phanloaihoa">1.Các loại hoa</p>
+                          <p class="phanloaihoa">1.Các loại sách</p>
                             <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoahongpage" style="color:black;font-weight:400;">Hoa Hồng</a>
+                                <a asp-controller="SanPham" asp-action="hoahongpage" style="color:black;font-weight:400;">Sách văn học</a>
                             </div>
                             <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoalypage" style="color:black;font-weight:400;">Hoa Ly</a>
+                                <a asp-controller="SanPham" asp-action="hoalypage" style="color:black;font-weight:400;">Sách chủ đề</a>
                             </div>
                             <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoasenpage" style="color:black;font-weight:400;">Hoa Sen</a>
+                                <a asp-controller="SanPham" asp-action="hoasenpage" style="color:black;font-weight:400;">Sách kỹ năng sống</a>
                             </div>
                             <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoacamtupage" style="color:black;font-weight:400;">Hoa Cẩm Tú</a>
+                                <a asp-controller="SanPham" asp-action="hoacamtupage" style="color:black;font-weight:400;">Sách thiếu nhi</a>
                             </div>
+                          <p class="phanloaihoa">2.Chủ đề làm quà tặng</p>
                             <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="" style="color:black;font-weight:400;">Hoa Cẩm Chướng</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoadonpage" style="color:black;font-weight:400;">Hoa Đơn</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoacambinhpage" style="color:black;font-weight:400;">Hoa Cắm Bình</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-                                <a asp-controller="SanPham" asp-action="hoalangpage" style="color:black;font-weight:400;">Hoa giỏ</a>
-                            </div>
-                          <p class="phanloaihoa">2.Các chủ đề mẫu hoa</p>
-                            <div class="all-danhmucmauhoa">
-                                   <a asp-controller="SanPham" asp-action="hoacamon" style="color:black;font-weight:400;">Hoa cảm ơn</a>
+                                <a asp-controller="SanPham" asp-action="hoacamon" style="color:black;font-weight:400;">Sách cảm ơn</a>
                         </div>
                          <div class="all-danhmucmauhoa">
 
-                                <a asp-controller="SanPham" asp-action="hoasinhnhat" style="color:black;font-weight:400;">Hoa sinh nhật</a>
+                                <a asp-controller="SanPham" asp-action="hoasinhnhat" style="color:black;font-weight:400;">Sách sinh nhật</a>
                         </div>
                          <div class="all-danhmucmauhoa">
 
-                                <a asp-controller="SanPham" asp-action="hoasukien" style="color:black;font-weight:400;">Hoa sự kiện</a>
+                                <a asp-controller="SanPham" asp-action="hoasukien" style="color:black;font-weight:400;">Sách sự kiện</a>
                         </div>
                             <div class="all-danhmucmauhoa">
 
-                                <a asp-controller="SanPham" asp-action="hoatuoi" style="color:black;font-weight:400;">Hoa tươi</a>
+                                <a asp-controller="SanPham" asp-action="hoaquatang" style="color:black;font-weight:400;">Sách quà tặng</a>
                             </div>
                             <div class="all-danhmucmauhoa">
 
-                                <a asp-controller="SanPham" asp-action="hoaquatang" style="color:black;font-weight:400;">Hoa quà tặng</a>
+                                <a asp-controller="SanPham" asp-action="hoatonghop" style="color:black;font-weight:400;">Sách tổng hợp</a>
                             </div>
                             <div class="all-danhmucmauhoa">
 
-                                <a asp-controller="SanPham" asp-action="hoatonghop" style="color:black;font-weight:400;">Hoa tổng hợp</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-
-                                <a asp-controller="SanPham" asp-action="hoacaiao" style="color:black;font-weight:400;">Hoa cài áo</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-
-                                <a asp-controller="SanPham" asp-action="hoacodau" style="color:black;font-weight:400;">Hoa cô dâu</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-
-                                <a asp-controller="SanPham" asp-action="hoaphunu" style="color:black;font-weight:400;">Hoa ngày phụ nữ</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-
-                                <a asp-controller="SanPham" asp-action="hoanhagiao" style="color:black;font-weight:400;">Hoa nhà giáo</a>
-                            </div>
-                            <div class="all-danhmucmauhoa">
-
-                                <a asp-controller="SanPham" asp-action="salehot" style="color:black;font-weight:400;">Mẫu hoa khuyến mãi</a>
+                                <a asp-controller="SanPham" asp-action="hoanhagiao" style="color:black;font-weight:400;">Sách ngày nhà giáo</a>
                             </div>
                             <p class="creat-accout">Tạo tài khoản ngay để nhận được các khuyến mãi lớn !!</p>
                             

@@ -55,6 +55,9 @@ namespace websitehoa.Controllers
             gethoasen2();
             gethoaly2();
             gethoacamtu2();
+            gethoasinhnhat();
+            getSPSALE();
+
             return View(sanpham);
         }
 
@@ -222,7 +225,7 @@ namespace websitehoa.Controllers
        
        
         //----------------------------
-        //sale
+        //sách tiểu thuyết
         public async Task<IActionResult> salehot()
         {
             var sanpham = await _context.SanPhams.Take(30).ToListAsync();
@@ -233,7 +236,7 @@ namespace websitehoa.Controllers
         //
         private void getSPSALE()
         {
-            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 25)
+            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 21)
                 .Take(50).ToList();
             ViewBag.getSPSALE = list;
         }
@@ -253,7 +256,7 @@ namespace websitehoa.Controllers
             ViewBag.gethoacamon = list;
         }
         //------------------------------------------------------
-        //hoa sinh nhật
+        //sách kinh tế
         public async Task<IActionResult> hoasinhnhat()
         {
             var sanpham = await _context.SanPhams.Take(30).ToListAsync();
@@ -263,7 +266,7 @@ namespace websitehoa.Controllers
         }
         private void gethoasinhnhat()
         {
-            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 40)
+            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 25)
                 .Take(30).ToList();
             ViewBag.gethoasinhnhat = list;
         }
@@ -398,13 +401,13 @@ namespace websitehoa.Controllers
         }
           private void gethoahongmau2()
           {
-              var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 19)
+              var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 1)
 
                   .Take(30).ToList();
               ViewBag.gethoahongmau2 = list;
 
           }
-        // trang hoa sen
+        // kũy năng sống
         public async Task<IActionResult> hoasenpage()
         {
             var sanpham = await _context.SanPhams.Take(30).ToListAsync();
@@ -420,7 +423,7 @@ namespace websitehoa.Controllers
 
         }
         //------------------------------------------------------
-        //trang hoa ly
+        //sách theo chủ đề lập trình
         public async Task<IActionResult> hoalypage()
         {
             var sanpham = await _context.SanPhams.Take(30).ToListAsync();
@@ -429,13 +432,13 @@ namespace websitehoa.Controllers
         }
         private void gethoaly2()
         {
-            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 13)
+            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 7)
 
                 .Take(30).ToList();
             ViewBag.gethoaly2 = list;
 
         }
-        //hoa cẩm tú
+        //sách thiếu nhi
         public async Task<IActionResult> hoacamtupage()
         {
             var sanpham = await _context.SanPhams.Take(30).ToListAsync();
@@ -444,7 +447,7 @@ namespace websitehoa.Controllers
         }
         private void gethoacamtu2()
         {
-            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 6)
+            var list = (from c in _context.SanPhams select c).Where(n => n.IdDanhmuc == 4)
 
                 .Take(30).ToList();
             ViewBag.gethoacamtu2 = list;
